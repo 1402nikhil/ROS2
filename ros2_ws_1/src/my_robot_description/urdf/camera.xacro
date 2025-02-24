@@ -4,7 +4,7 @@
     <xacro:property name="camera_length" value="0.01" />
     <xacro:property name="camera_width" value="0.1" />
     <xacro:property name="camera_height" value="0.05" />
-
+<!-- check -->
     <link name="camera_link">
         <visual>
             <geometry>
