@@ -1,0 +1,408 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::ParameterValue::get<bool [3]>() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+  148 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kbool [3][m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+  159 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kbool [3][m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const[m[K’
+  170 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kbool [3][m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+  181 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kbool [3][m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  193 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kbool [3][m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  205 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kbool [3][m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  217 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kbool [3][m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  229 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kbool [3][m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  241 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;31m[Kerror: [m[Ktype/value mismatch at argument 1 in template parameter list for ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  202 |     return [01;31m[Kthis->declare_parameter([m[K
+      |            [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  203 | [01;31m[K      name,[m[K
+      |       [01;31m[K~~~~~[m[K           
+  204 | [01;31m[K      rclcpp::ParameterValue(default_value),[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  205 | [01;31m[K      parameter_descriptor,[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+  206 | [01;31m[K      ignore_override[m[K
+      |       [01;31m[K~~~~~~~~~~~~~~~[m[K 
+  207 | [01;31m[K    ).get<ParameterT>()[m[K;
+      |     [01;31m[K~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K [01;36m[Knote: [m[K  expected a constant of type ‘[01m[Krclcpp::ParameterType[m[K’, got ‘[01m[Kbool [3][m[K’
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+  254 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:254:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const bool&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+  263 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:263:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const long int&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const[m[K’
+  271 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:271:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const double&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+  279 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:279:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::__cxx11::basic_string<char>&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  289 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:289:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<unsigned char, std::allocator<unsigned char> >&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  299 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:299:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<bool, std::allocator<bool> >&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<int>&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  309 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<int>&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:309:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<long int, std::allocator<long int> >&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  319 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:319:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<long int, std::allocator<long int> >&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<float>&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  329 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<float>&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:329:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<double, std::allocator<double> >&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:339:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  339 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:339:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:339:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<double, std::allocator<double> >&>[m[K’
+/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:349:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+  349 |   [01;36m[Kget[m[K() const
+      |   [01;36m[K^~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:349:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const [with type = bool [3]][m[K’:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:207:22:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = bool [3]; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:36:[m[K   required from here
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:349:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<std::__cxx11::basic_string<char> >&>[m[K’
+gmake[2]: *** [CMakeFiles/led_panel.dir/build.make:76: CMakeFiles/led_panel.dir/src/led_panel.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/led_panel.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

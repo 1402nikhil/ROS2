@@ -1,0 +1,57 @@
+[0.006s] Invoking command in '/home/nikhil/ROS/ros2_ws/build/course_activities': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/ROS/ros2_ws/build/course_activities -- -j20 -l20
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.055s] [ 28%] Built target reset_counter_client
+[0.056s] [ 28%] Built target led_panel
+[0.059s] [ 50%] Built target new_turtle
+[0.059s] [ 57%] Built target battery_status
+[0.060s] [ 64%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[0.060s] [ 78%] Built target number_counter
+[0.061s] [ 92%] Built target number_publisher
+[1.211s] [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/controller.cpp:[m[K In constructor ‘[01m[KControllerNode::ControllerNode()[m[K’:
+[1.211s] [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/controller.cpp:108:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KControllerNode::smallDistFlag[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.211s]   108 |         bool [01;35m[KsmallDistFlag[m[K;
+[1.212s]       |              [01;35m[K^~~~~~~~~~~~~[m[K
+[1.212s] [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/controller.cpp:107:14:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool ControllerNode::newDataFlag[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.212s]   107 |         bool [01;35m[KnewDataFlag[m[K;
+[1.212s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[1.212s] [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/controller.cpp:11:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.212s]    11 |         [01;35m[KControllerNode[m[K(): Node("controller_node"), smallDistFlag(false), newDataFlag(false), smallestDistance(20.0)
+[1.212s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.212s] [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/controller.cpp:107:14:[m[K [01;35m[Kwarning: [m[K‘[01m[KControllerNode::newDataFlag[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.212s]   107 |         bool [01;35m[KnewDataFlag[m[K;
+[1.212s]       |              [01;35m[K^~~~~~~~~~~[m[K
+[1.212s] [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/controller.cpp:104:15:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kfloat ControllerNode::smallestDistance[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.212s]   104 |         float [01;35m[KsmallestDistance[m[K;
+[1.212s]       |               [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[1.212s] [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/controller.cpp:11:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[1.212s]    11 |         [01;35m[KControllerNode[m[K(): Node("controller_node"), smallDistFlag(false), newDataFlag(false), smallestDistance(20.0)
+[1.212s]       |         [01;35m[K^~~~~~~~~~~~~~[m[K
+[5.759s] [100%] [32m[1mLinking CXX executable controller[0m
+[6.064s] [100%] Built target controller
+[6.075s] Invoked command in '/home/nikhil/ROS/ros2_ws/build/course_activities' returned '0': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/ROS/ros2_ws/build/course_activities -- -j20 -l20
+[6.106s] Invoking command in '/home/nikhil/ROS/ros2_ws/build/course_activities': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/ROS/ros2_ws/build/course_activities
+[6.110s] -- Install configuration: ""
+[6.110s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/number_publisher
+[6.111s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/number_counter
+[6.111s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/reset_counter_client
+[6.111s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/battery_status
+[6.111s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/led_panel
+[6.111s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/new_turtle
+[6.111s] -- Installing: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/controller
+[6.114s] -- Set runtime path of "/home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/controller" to ""
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/package_run_dependencies/course_activities
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/parent_prefix_path/course_activities
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/ament_prefix_path.sh
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/ament_prefix_path.dsv
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/path.sh
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/path.dsv
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.bash
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.sh
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.zsh
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.dsv
+[6.114s] -- Installing: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/package.dsv
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/packages/course_activities
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/cmake/course_activitiesConfig.cmake
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/cmake/course_activitiesConfig-version.cmake
+[6.114s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/package.xml
+[6.115s] Invoked command in '/home/nikhil/ROS/ros2_ws/build/course_activities' returned '0': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/ROS/ros2_ws/build/course_activities

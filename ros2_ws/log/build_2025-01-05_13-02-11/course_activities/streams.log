@@ -1,0 +1,36 @@
+[0.021s] Invoking command in '/home/nikhil/ROS/ros2_ws/build/course_activities': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/ROS/ros2_ws/build/course_activities -- -j20 -l20
+[0.104s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.128s] [ 14%] Built target number_counter
+[0.129s] [ 21%] [32mBuilding CXX object CMakeFiles/new_turtle.dir/src/new_turtle.cpp.o[0m
+[0.130s] [ 35%] Built target number_publisher
+[0.131s] [ 42%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[0.131s] [ 50%] [32mBuilding CXX object CMakeFiles/battery_status.dir/src/battery_status.cpp.o[0m
+[0.133s] [ 64%] Built target reset_counter_client
+[0.136s] [ 71%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[4.529s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[4.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[4.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[4.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.530s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.531s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.531s]                  from [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/controller.cpp:2[m[K:
+[4.531s] /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp: In instantiation of ‘[01m[Kclass rclcpp::Publisher<turtlesim::srv::Kill>[m[K’:
+[4.531s] [01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/controller.cpp:141:48:[m[K   required from here
+[4.531s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: given message type is not compatible with ROS and cannot be used with a Publisher
+[4.532s]    81 |     rclcpp::is_ros_compatible_type<MessageT>::[01;31m[Kvalue[m[K,
+[4.532s]       |                                               [01;31m[K^~~~~[m[K
+[4.532s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:81:47:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::is_ros_compatible_type<turtlesim::srv::Kill>::value[m[K’ evaluates to false
+[6.823s] [ 78%] [32m[1mLinking CXX executable battery_status[0m
+[7.114s] [ 78%] Built target battery_status
+[8.933s] [ 85%] [32m[1mLinking CXX executable led_panel[0m
+[9.300s] [ 92%] [32m[1mLinking CXX executable new_turtle[0m
+[9.323s] [ 92%] Built target led_panel
+[9.721s] [ 92%] Built target new_turtle
+[10.671s] gmake[2]: *** [CMakeFiles/controller.dir/build.make:76: CMakeFiles/controller.dir/src/controller.cpp.o] Error 1
+[10.671s] gmake[1]: *** [CMakeFiles/Makefile2:305: CMakeFiles/controller.dir/all] Error 2
+[10.672s] gmake: *** [Makefile:146: all] Error 2
+[10.676s] Invoked command in '/home/nikhil/ROS/ros2_ws/build/course_activities' returned '2': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/ROS/ros2_ws/build/course_activities -- -j20 -l20

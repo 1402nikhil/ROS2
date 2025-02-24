@@ -1,0 +1,38 @@
+[0.006s] Invoking command in '/home/nikhil/ROS/ros2_ws/build/course_activities': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/ROS/ros2_ws/build/course_activities -- -j20 -l20
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.043s] [ 14%] Built target number_counter
+[0.043s] [ 28%] Built target new_turtle
+[0.046s] [ 42%] Built target reset_counter_client
+[0.046s] [ 64%] Built target number_publisher
+[0.047s] [ 71%] Built target led_panel
+[0.047s] [ 78%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[0.049s] [ 92%] Built target battery_status
+[5.488s] [100%] [32m[1mLinking CXX executable controller[0m
+[5.793s] [100%] Built target controller
+[5.804s] Invoked command in '/home/nikhil/ROS/ros2_ws/build/course_activities' returned '0': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/ROS/ros2_ws/build/course_activities -- -j20 -l20
+[5.843s] Invoking command in '/home/nikhil/ROS/ros2_ws/build/course_activities': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/ROS/ros2_ws/build/course_activities
+[5.848s] -- Install configuration: ""
+[5.848s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/number_publisher
+[5.848s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/number_counter
+[5.848s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/reset_counter_client
+[5.848s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/battery_status
+[5.848s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/led_panel
+[5.848s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/new_turtle
+[5.849s] -- Installing: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/controller
+[5.852s] -- Set runtime path of "/home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/controller" to ""
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/package_run_dependencies/course_activities
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/parent_prefix_path/course_activities
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/ament_prefix_path.sh
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/ament_prefix_path.dsv
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/path.sh
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/path.dsv
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.bash
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.sh
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.zsh
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.dsv
+[5.852s] -- Installing: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/package.dsv
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/packages/course_activities
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/cmake/course_activitiesConfig.cmake
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/cmake/course_activitiesConfig-version.cmake
+[5.852s] -- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/package.xml
+[5.854s] Invoked command in '/home/nikhil/ROS/ros2_ws/build/course_activities' returned '0': CMAKE_PREFIX_PATH=/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/ROS/ros2_ws/build/course_activities

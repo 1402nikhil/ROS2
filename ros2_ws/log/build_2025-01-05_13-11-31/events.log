@@ -1,0 +1,456 @@
+[0.000000] (-) TimerEvent: {}
+[0.000723] (-) JobUnselected: {'identifier': 'cpp_pkg'}
+[0.000923] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000955] (-) JobUnselected: {'identifier': 'py_pkg'}
+[0.000985] (my_robot_interfaces) JobQueued: {'identifier': 'my_robot_interfaces', 'dependencies': OrderedDict()}
+[0.001016] (course_activities) JobQueued: {'identifier': 'course_activities', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces')])}
+[0.001048] (my_robot_interfaces) JobStarted: {'identifier': 'my_robot_interfaces'}
+[0.010559] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'cmake'}
+[0.011816] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'build'}
+[0.012155] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nikhil'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64'), ('HOME', '/home/nikhil'), ('OLDPWD', '/home/nikhil'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nikhil/.nvm/versions/node/v23.0.0/bin'), ('NVM_INC', '/home/nikhil/.nvm/versions/node/v23.0.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1896'), ('SYSTEMD_EXEC_PID', '2626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5838'), ('NVM_DIR', '/home/nikhil/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nikhil'), ('JOURNAL_STREAM', '8:21036'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nikhil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nikhil/.nvm/versions/node/v23.0.0/bin:/opt/ros/humble/bin:/usr/local/cuda-12.5/bin:/home/nikhil/.local/bin:/home/nikhil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nikhil/.local/bin'), ('SESSION_MANAGER', 'local/XPS-15-9520:@/tmp/.ICE-unix/2374,unix/XPS-15-9520:/tmp/.ICE-unix/2374'), ('INVOCATION_ID', '7f9d91fe2d9646d3b5ba6202551b03f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/py_pkg:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:497f6c05-63f9-4564-ba9f-d20eb101b00b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/nikhil/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nikhil/ROS/ros2_ws/install/py_pkg/lib/python3.10/site-packages:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.092892] (my_robot_interfaces) StdoutLine: {'line': b'[  1%] Built target my_robot_interfaces__cpp\n'}
+[0.094696] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target my_robot_interfaces__rosidl_generator_c\n'}
+[0.099847] (-) TimerEvent: {}
+[0.113166] (my_robot_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_my_robot_interfaces\n'}
+[0.134209] (my_robot_interfaces) StdoutLine: {'line': b'[ 23%] Built target my_robot_interfaces__rosidl_typesupport_c\n'}
+[0.135106] (my_robot_interfaces) StdoutLine: {'line': b'[ 34%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.139919] (my_robot_interfaces) StdoutLine: {'line': b'[ 46%] Built target my_robot_interfaces__rosidl_typesupport_cpp\n'}
+[0.141773] (my_robot_interfaces) StdoutLine: {'line': b'[ 57%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.143157] (my_robot_interfaces) StdoutLine: {'line': b'[ 68%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.143980] (my_robot_interfaces) StdoutLine: {'line': b'[ 79%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.184603] (my_robot_interfaces) StdoutLine: {'line': b'[ 79%] Built target my_robot_interfaces\n'}
+[0.200050] (-) TimerEvent: {}
+[0.221673] (my_robot_interfaces) StdoutLine: {'line': b'[ 80%] Built target my_robot_interfaces__py\n'}
+[0.263925] (my_robot_interfaces) StdoutLine: {'line': b'[ 90%] Built target my_robot_interfaces__rosidl_generator_py\n'}
+[0.300302] (-) TimerEvent: {}
+[0.306830] (my_robot_interfaces) StdoutLine: {'line': b'[ 93%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.307841] (my_robot_interfaces) StdoutLine: {'line': b'[ 96%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.308196] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.400493] (-) TimerEvent: {}
+[0.498168] (my_robot_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.499036] (my_robot_interfaces) StdoutLine: {'line': b'writing my_robot_interfaces.egg-info/PKG-INFO\n'}
+[0.499320] (my_robot_interfaces) StdoutLine: {'line': b'writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt\n'}
+[0.499461] (my_robot_interfaces) StdoutLine: {'line': b'writing top-level names to my_robot_interfaces.egg-info/top_level.txt\n'}
+[0.500573] (-) TimerEvent: {}
+[0.502277] (my_robot_interfaces) StdoutLine: {'line': b"reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[0.503006] (my_robot_interfaces) StdoutLine: {'line': b"writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'\n"}
+[0.536386] (my_robot_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_my_robot_interfaces_egg\n'}
+[0.552832] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[0.600712] (-) TimerEvent: {}
+[0.701241] (-) TimerEvent: {}
+[0.778920] (my_robot_interfaces) JobProgress: {'identifier': 'my_robot_interfaces', 'progress': 'install'}
+[0.792993] (my_robot_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces'], 'cwd': '/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nikhil'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64'), ('HOME', '/home/nikhil'), ('OLDPWD', '/home/nikhil'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nikhil/.nvm/versions/node/v23.0.0/bin'), ('NVM_INC', '/home/nikhil/.nvm/versions/node/v23.0.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1896'), ('SYSTEMD_EXEC_PID', '2626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5838'), ('NVM_DIR', '/home/nikhil/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nikhil'), ('JOURNAL_STREAM', '8:21036'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nikhil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nikhil/.nvm/versions/node/v23.0.0/bin:/opt/ros/humble/bin:/usr/local/cuda-12.5/bin:/home/nikhil/.local/bin:/home/nikhil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nikhil/.local/bin'), ('SESSION_MANAGER', 'local/XPS-15-9520:@/tmp/.ICE-unix/2374,unix/XPS-15-9520:/tmp/.ICE-unix/2374'), ('INVOCATION_ID', '7f9d91fe2d9646d3b5ba6202551b03f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/py_pkg:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:497f6c05-63f9-4564-ba9f-d20eb101b00b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/nikhil/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nikhil/ROS/ros2_ws/install/py_pkg/lib/python3.10/site-packages:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.801366] (-) TimerEvent: {}
+[0.803559] (my_robot_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.803735] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces\n'}
+[0.803812] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.803876] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.803936] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/robot_location.h\n'}
+[0.804001] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.804139] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_status.h\n'}
+[0.804512] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.h\n'}
+[0.804600] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.804667] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.h\n'}
+[0.804733] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__functions.c\n'}
+[0.804795] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__functions.c\n'}
+[0.804858] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__struct.h\n'}
+[0.804937] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.h\n'}
+[0.805001] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__type_support.h\n'}
+[0.805063] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__type_support.h\n'}
+[0.805122] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__functions.h\n'}
+[0.805198] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.h\n'}
+[0.805265] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__struct.h\n'}
+[0.805324] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__functions.c\n'}
+[0.805625] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__functions.h\n'}
+[0.805726] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.805795] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle.h\n'}
+[0.805860] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.h\n'}
+[0.805923] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.805984] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__functions.h\n'}
+[0.806043] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__struct.h\n'}
+[0.806148] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.h\n'}
+[0.806271] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__functions.c\n'}
+[0.806335] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.h\n'}
+[0.806397] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__type_support.h\n'}
+[0.806460] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__functions.c\n'}
+[0.806521] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.h\n'}
+[0.806579] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh\n'}
+[0.806640] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv\n'}
+[0.806700] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so\n'}
+[0.806759] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.806818] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.806874] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.806935] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.807014] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807075] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807135] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807321] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.807386] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.807443] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807502] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_c.h\n'}
+[0.807584] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.807720] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.807774] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.807830] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.807884] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.807941] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__rosidl_typesupport_introspection_c.h\n'}
+[0.807999] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__type_support.c\n'}
+[0.808056] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_c.h\n'}
+[0.808114] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.c\n'}
+[0.808172] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__rosidl_typesupport_introspection_c.h\n'}
+[0.808245] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__type_support.c\n'}
+[0.808306] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.808368] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.808429] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_c.h\n'}
+[0.808489] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.c\n'}
+[0.808550] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__rosidl_typesupport_introspection_c.h\n'}
+[0.808612] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__type_support.c\n'}
+[0.808673] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.808757] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so\n'}
+[0.808883] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.808945] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.809006] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/led_status.hpp\n'}
+[0.809066] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/hardware_status.hpp\n'}
+[0.809128] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/robot_location.hpp\n'}
+[0.809196] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.809262] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__builder.hpp\n'}
+[0.809324] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__builder.hpp\n'}
+[0.809386] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__traits.hpp\n'}
+[0.809448] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__traits.hpp\n'}
+[0.809514] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__traits.hpp\n'}
+[0.809578] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__builder.hpp\n'}
+[0.809640] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__struct.hpp\n'}
+[0.809702] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__struct.hpp\n'}
+[0.809763] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__struct.hpp\n'}
+[0.809823] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.809883] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/compute_rectangle.hpp\n'}
+[0.809945] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/set_led.hpp\n'}
+[0.810008] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.810071] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__traits.hpp\n'}
+[0.810156] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__traits.hpp\n'}
+[0.810234] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__builder.hpp\n'}
+[0.810297] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__struct.hpp\n'}
+[0.810358] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__struct.hpp\n'}
+[0.810419] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__builder.hpp\n'}
+[0.810480] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.810609] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.810667] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.810725] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.810780] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.810836] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.810891] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.810949] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/dds_fastrtps\n'}
+[0.811005] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.811062] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.811118] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.811179] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/dds_fastrtps\n'}
+[0.811245] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.811308] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.811363] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces\n'}
+[0.811420] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg\n'}
+[0.811476] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail\n'}
+[0.811531] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__type_support.cpp\n'}
+[0.811588] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.811643] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.811699] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/hardware_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.811758] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/robot_location__type_support.cpp\n'}
+[0.811813] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/led_status__type_support.cpp\n'}
+[0.811870] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv\n'}
+[0.811924] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail\n'}
+[0.811982] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__type_support.cpp\n'}
+[0.812037] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__type_support.cpp\n'}
+[0.812096] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/set_led__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.812151] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/srv/detail/compute_rectangle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.812223] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.812279] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.812335] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh\n'}
+[0.812390] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv\n'}
+[0.812446] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.812514] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.812593] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.812653] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.812710] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.812766] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces\n'}
+[0.812821] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.812886] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py\n'}
+[0.812944] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[0.812999] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.813055] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.813113] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.813169] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.813240] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.813297] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg\n'}
+[0.813353] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_robot_location_s.c\n'}
+[0.813408] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_robot_location.py\n'}
+[0.813463] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py\n'}
+[0.813522] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_led_status_s.c\n'}
+[0.813577] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_led_status.py\n'}
+[0.813634] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status.py\n'}
+[0.813689] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_hardware_status_s.c\n'}
+[0.813746] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv\n'}
+[0.813800] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/__init__.py\n'}
+[0.813855] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_set_led.py\n'}
+[0.813909] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_compute_rectangle.py\n'}
+[0.813966] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_set_led_s.c\n'}
+[0.814021] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv/_compute_rectangle_s.c\n'}
+[0.854768] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...\n"}
+[0.854959] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...\n"}
+[0.855036] (my_robot_interfaces) StdoutLine: {'line': b"Listing '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/srv'...\n"}
+[0.860640] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.860928] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.861145] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.861394] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so\n'}
+[0.861566] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.idl\n'}
+[0.861638] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStatus.idl\n'}
+[0.861700] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/RobotLocation.idl\n'}
+[0.861758] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangle.idl\n'}
+[0.861980] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.idl\n'}
+[0.862144] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/HardwareStatus.msg\n'}
+[0.862272] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/LedStatus.msg\n'}
+[0.862334] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/msg/RobotLocation.msg\n'}
+[0.862389] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangle.srv\n'}
+[0.862448] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangle_Request.msg\n'}
+[0.862507] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/ComputeRectangle_Response.msg\n'}
+[0.862595] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed.srv\n'}
+[0.862652] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Request.msg\n'}
+[0.862706] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/srv/SetLed_Response.msg\n'}
+[0.862759] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces\n'}
+[0.862812] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces\n'}
+[0.862864] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh\n'}
+[0.862916] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.862968] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh\n'}
+[0.863020] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv\n'}
+[0.863071] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash\n'}
+[0.863124] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh\n'}
+[0.863181] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh\n'}
+[0.863240] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv\n'}
+[0.863292] (my_robot_interfaces) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv\n'}
+[0.863344] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces\n'}
+[0.863396] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.863449] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.863523] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.863664] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.863726] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.863811] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.863866] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.863915] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.863966] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.864015] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.864066] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.864117] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.864167] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.864234] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.864288] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.864340] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.864390] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.864441] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.864494] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.864543] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.864596] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.864645] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.864696] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.864746] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.864796] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake\n'}
+[0.864845] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake\n'}
+[0.864896] (my_robot_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/package.xml\n'}
+[0.866607] (my_robot_interfaces) CommandEnded: {'returncode': 0}
+[0.901463] (-) TimerEvent: {}
+[1.001825] (-) TimerEvent: {}
+[1.095872] (my_robot_interfaces) JobEnded: {'identifier': 'my_robot_interfaces', 'rc': 0}
+[1.096371] (course_activities) JobStarted: {'identifier': 'course_activities'}
+[1.101916] (-) TimerEvent: {}
+[1.107237] (course_activities) JobProgress: {'identifier': 'course_activities', 'progress': 'cmake'}
+[1.108545] (course_activities) JobProgress: {'identifier': 'course_activities', 'progress': 'build'}
+[1.108611] (course_activities) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nikhil/ROS/ros2_ws/build/course_activities', '--', '-j20', '-l20'], 'cwd': '/home/nikhil/ROS/ros2_ws/build/course_activities', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nikhil'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64'), ('HOME', '/home/nikhil'), ('OLDPWD', '/home/nikhil'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nikhil/.nvm/versions/node/v23.0.0/bin'), ('NVM_INC', '/home/nikhil/.nvm/versions/node/v23.0.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1896'), ('SYSTEMD_EXEC_PID', '2626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5838'), ('NVM_DIR', '/home/nikhil/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nikhil'), ('JOURNAL_STREAM', '8:21036'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nikhil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nikhil/.nvm/versions/node/v23.0.0/bin:/opt/ros/humble/bin:/usr/local/cuda-12.5/bin:/home/nikhil/.local/bin:/home/nikhil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nikhil/.local/bin'), ('SESSION_MANAGER', 'local/XPS-15-9520:@/tmp/.ICE-unix/2374,unix/XPS-15-9520:/tmp/.ICE-unix/2374'), ('INVOCATION_ID', '7f9d91fe2d9646d3b5ba6202551b03f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/py_pkg:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:497f6c05-63f9-4564-ba9f-d20eb101b00b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nikhil/ROS/ros2_ws/build/course_activities'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/nikhil/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nikhil/ROS/ros2_ws/install/py_pkg/lib/python3.10/site-packages:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble')]), 'shell': False}
+[1.179982] (course_activities) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target led_panel\x1b[0m\n'}
+[1.180634] (course_activities) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target new_turtle\x1b[0m\n'}
+[1.180873] (course_activities) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target controller\x1b[0m\n'}
+[1.182000] (course_activities) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target battery_status\x1b[0m\n'}
+[1.202141] (-) TimerEvent: {}
+[1.205123] (course_activities) StdoutLine: {'line': b'[ 14%] Built target number_publisher\n'}
+[1.205925] (course_activities) StdoutLine: {'line': b'[ 28%] Built target reset_counter_client\n'}
+[1.206239] (course_activities) StdoutLine: {'line': b'[ 42%] Built target number_counter\n'}
+[1.207661] (course_activities) StdoutLine: {'line': b'[ 57%] Built target led_panel\n'}
+[1.211834] (course_activities) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[1.213025] (course_activities) StdoutLine: {'line': b'[ 78%] Built target battery_status\n'}
+[1.213798] (course_activities) StdoutLine: {'line': b'[ 92%] Built target new_turtle\n'}
+[1.302357] (-) TimerEvent: {}
+[1.402783] (-) TimerEvent: {}
+[1.503105] (-) TimerEvent: {}
+[1.603540] (-) TimerEvent: {}
+[1.703992] (-) TimerEvent: {}
+[1.804381] (-) TimerEvent: {}
+[1.904844] (-) TimerEvent: {}
+[2.005326] (-) TimerEvent: {}
+[2.105810] (-) TimerEvent: {}
+[2.206265] (-) TimerEvent: {}
+[2.306717] (-) TimerEvent: {}
+[2.407191] (-) TimerEvent: {}
+[2.507650] (-) TimerEvent: {}
+[2.608127] (-) TimerEvent: {}
+[2.708619] (-) TimerEvent: {}
+[2.809086] (-) TimerEvent: {}
+[2.909562] (-) TimerEvent: {}
+[3.010017] (-) TimerEvent: {}
+[3.110503] (-) TimerEvent: {}
+[3.210977] (-) TimerEvent: {}
+[3.311513] (-) TimerEvent: {}
+[3.411891] (-) TimerEvent: {}
+[3.512305] (-) TimerEvent: {}
+[3.612730] (-) TimerEvent: {}
+[3.713142] (-) TimerEvent: {}
+[3.813560] (-) TimerEvent: {}
+[3.913967] (-) TimerEvent: {}
+[4.014370] (-) TimerEvent: {}
+[4.114768] (-) TimerEvent: {}
+[4.215159] (-) TimerEvent: {}
+[4.315598] (-) TimerEvent: {}
+[4.416005] (-) TimerEvent: {}
+[4.516427] (-) TimerEvent: {}
+[4.616828] (-) TimerEvent: {}
+[4.717282] (-) TimerEvent: {}
+[4.817642] (-) TimerEvent: {}
+[4.918080] (-) TimerEvent: {}
+[5.018530] (-) TimerEvent: {}
+[5.118930] (-) TimerEvent: {}
+[5.219342] (-) TimerEvent: {}
+[5.319768] (-) TimerEvent: {}
+[5.420173] (-) TimerEvent: {}
+[5.520656] (-) TimerEvent: {}
+[5.621061] (-) TimerEvent: {}
+[5.721507] (-) TimerEvent: {}
+[5.821923] (-) TimerEvent: {}
+[5.922384] (-) TimerEvent: {}
+[6.022826] (-) TimerEvent: {}
+[6.123274] (-) TimerEvent: {}
+[6.223702] (-) TimerEvent: {}
+[6.324134] (-) TimerEvent: {}
+[6.424551] (-) TimerEvent: {}
+[6.525008] (-) TimerEvent: {}
+[6.625490] (-) TimerEvent: {}
+[6.725907] (-) TimerEvent: {}
+[6.826357] (-) TimerEvent: {}
+[6.926783] (-) TimerEvent: {}
+[7.027202] (-) TimerEvent: {}
+[7.127649] (-) TimerEvent: {}
+[7.228064] (-) TimerEvent: {}
+[7.328528] (-) TimerEvent: {}
+[7.428958] (-) TimerEvent: {}
+[7.529425] (-) TimerEvent: {}
+[7.629826] (-) TimerEvent: {}
+[7.730234] (-) TimerEvent: {}
+[7.830637] (-) TimerEvent: {}
+[7.931032] (-) TimerEvent: {}
+[8.031454] (-) TimerEvent: {}
+[8.131820] (-) TimerEvent: {}
+[8.232218] (-) TimerEvent: {}
+[8.332631] (-) TimerEvent: {}
+[8.433029] (-) TimerEvent: {}
+[8.533457] (-) TimerEvent: {}
+[8.633857] (-) TimerEvent: {}
+[8.734252] (-) TimerEvent: {}
+[8.834655] (-) TimerEvent: {}
+[8.935037] (-) TimerEvent: {}
+[9.035455] (-) TimerEvent: {}
+[9.135831] (-) TimerEvent: {}
+[9.236215] (-) TimerEvent: {}
+[9.336505] (-) TimerEvent: {}
+[9.436913] (-) TimerEvent: {}
+[9.537281] (-) TimerEvent: {}
+[9.637672] (-) TimerEvent: {}
+[9.738092] (-) TimerEvent: {}
+[9.838529] (-) TimerEvent: {}
+[9.938896] (-) TimerEvent: {}
+[10.039282] (-) TimerEvent: {}
+[10.139587] (-) TimerEvent: {}
+[10.239991] (-) TimerEvent: {}
+[10.340393] (-) TimerEvent: {}
+[10.440687] (-) TimerEvent: {}
+[10.541072] (-) TimerEvent: {}
+[10.641491] (-) TimerEvent: {}
+[10.741772] (-) TimerEvent: {}
+[10.842192] (-) TimerEvent: {}
+[10.942542] (-) TimerEvent: {}
+[11.042999] (-) TimerEvent: {}
+[11.143379] (-) TimerEvent: {}
+[11.243857] (-) TimerEvent: {}
+[11.344342] (-) TimerEvent: {}
+[11.444804] (-) TimerEvent: {}
+[11.545240] (-) TimerEvent: {}
+[11.645526] (-) TimerEvent: {}
+[11.745828] (-) TimerEvent: {}
+[11.846210] (-) TimerEvent: {}
+[11.946562] (-) TimerEvent: {}
+[12.046920] (-) TimerEvent: {}
+[12.147290] (-) TimerEvent: {}
+[12.247648] (-) TimerEvent: {}
+[12.348031] (-) TimerEvent: {}
+[12.448446] (-) TimerEvent: {}
+[12.548860] (-) TimerEvent: {}
+[12.649242] (-) TimerEvent: {}
+[12.749609] (-) TimerEvent: {}
+[12.849967] (-) TimerEvent: {}
+[12.950331] (-) TimerEvent: {}
+[13.050687] (-) TimerEvent: {}
+[13.151057] (-) TimerEvent: {}
+[13.251434] (-) TimerEvent: {}
+[13.351803] (-) TimerEvent: {}
+[13.452190] (-) TimerEvent: {}
+[13.552547] (-) TimerEvent: {}
+[13.652885] (-) TimerEvent: {}
+[13.753407] (-) TimerEvent: {}
+[13.853832] (-) TimerEvent: {}
+[13.954239] (-) TimerEvent: {}
+[14.054626] (-) TimerEvent: {}
+[14.155024] (-) TimerEvent: {}
+[14.255349] (-) TimerEvent: {}
+[14.355772] (-) TimerEvent: {}
+[14.456265] (-) TimerEvent: {}
+[14.556772] (-) TimerEvent: {}
+[14.657315] (-) TimerEvent: {}
+[14.757829] (-) TimerEvent: {}
+[14.794314] (course_activities) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[14.858074] (-) TimerEvent: {}
+[14.958574] (-) TimerEvent: {}
+[15.059061] (-) TimerEvent: {}
+[15.159561] (-) TimerEvent: {}
+[15.260055] (-) TimerEvent: {}
+[15.360552] (-) TimerEvent: {}
+[15.461047] (-) TimerEvent: {}
+[15.561554] (-) TimerEvent: {}
+[15.596766] (course_activities) StdoutLine: {'line': b'[100%] Built target controller\n'}
+[15.613068] (course_activities) CommandEnded: {'returncode': 0}
+[15.661748] (-) TimerEvent: {}
+[15.683070] (course_activities) JobProgress: {'identifier': 'course_activities', 'progress': 'install'}
+[15.683855] (course_activities) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nikhil/ROS/ros2_ws/build/course_activities'], 'cwd': '/home/nikhil/ROS/ros2_ws/build/course_activities', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'nikhil'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.5/lib64'), ('HOME', '/home/nikhil'), ('OLDPWD', '/home/nikhil'), ('DESKTOP_SESSION', 'ubuntu'), ('NVM_BIN', '/home/nikhil/.nvm/versions/node/v23.0.0/bin'), ('NVM_INC', '/home/nikhil/.nvm/versions/node/v23.0.0/include/node'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1896'), ('SYSTEMD_EXEC_PID', '2626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5838'), ('NVM_DIR', '/home/nikhil/.nvm'), ('_colcon_cd_root', '/opt/ros/humble/'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nikhil'), ('JOURNAL_STREAM', '8:21036'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nikhil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/nikhil/.nvm/versions/node/v23.0.0/bin:/opt/ros/humble/bin:/usr/local/cuda-12.5/bin:/home/nikhil/.local/bin:/home/nikhil/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/nikhil/.local/bin'), ('SESSION_MANAGER', 'local/XPS-15-9520:@/tmp/.ICE-unix/2374,unix/XPS-15-9520:/tmp/.ICE-unix/2374'), ('INVOCATION_ID', '7f9d91fe2d9646d3b5ba6202551b03f6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/py_pkg:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:497f6c05-63f9-4564-ba9f-d20eb101b00b'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nikhil/ROS/ros2_ws/build/course_activities'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/home/nikhil/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nikhil/ROS/ros2_ws/install/py_pkg/lib/python3.10/site-packages:/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/ROS/ros2_ws/install/course_activities:/home/nikhil/ROS/ros2_ws/install/py_pkg:/opt/ros/humble')]), 'shell': False}
+[15.693901] (course_activities) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.694148] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/number_publisher\n'}
+[15.694389] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/number_counter\n'}
+[15.694723] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/reset_counter_client\n'}
+[15.694927] (course_activities) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/battery_status\n'}
+[15.696118] (course_activities) StdoutLine: {'line': b'-- Set runtime path of "/home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/battery_status" to ""\n'}
+[15.696305] (course_activities) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/led_panel\n'}
+[15.697920] (course_activities) StdoutLine: {'line': b'-- Set runtime path of "/home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/led_panel" to ""\n'}
+[15.698103] (course_activities) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/new_turtle\n'}
+[15.699815] (course_activities) StdoutLine: {'line': b'-- Set runtime path of "/home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/new_turtle" to ""\n'}
+[15.699987] (course_activities) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/controller\n'}
+[15.707082] (course_activities) StdoutLine: {'line': b'-- Set runtime path of "/home/nikhil/ROS/ros2_ws/install/course_activities/lib/course_activities/controller" to ""\n'}
+[15.707366] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/package_run_dependencies/course_activities\n'}
+[15.707481] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/parent_prefix_path/course_activities\n'}
+[15.707563] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/ament_prefix_path.sh\n'}
+[15.707644] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/ament_prefix_path.dsv\n'}
+[15.707719] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/path.sh\n'}
+[15.707849] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/environment/path.dsv\n'}
+[15.707924] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.bash\n'}
+[15.707994] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.sh\n'}
+[15.708155] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.zsh\n'}
+[15.708237] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.dsv\n'}
+[15.708305] (course_activities) StdoutLine: {'line': b'-- Installing: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/package.dsv\n'}
+[15.708371] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/packages/course_activities\n'}
+[15.708435] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/cmake/course_activitiesConfig.cmake\n'}
+[15.708500] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/cmake/course_activitiesConfig-version.cmake\n'}
+[15.708566] (course_activities) StdoutLine: {'line': b'-- Up-to-date: /home/nikhil/ROS/ros2_ws/install/course_activities/share/course_activities/package.xml\n'}
+[15.710504] (course_activities) CommandEnded: {'returncode': 0}
+[15.761875] (-) TimerEvent: {}
+[15.785580] (course_activities) JobEnded: {'identifier': 'course_activities', 'rc': 0}
+[15.786311] (-) EventReactorShutdown: {}

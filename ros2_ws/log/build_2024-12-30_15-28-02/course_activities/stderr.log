@@ -1,0 +1,7 @@
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:[m[K In constructor ‘[01m[KledPanelNode::ledPanelNode()[m[K’:
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:60:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   13 |             this->declare_parameter("led_initial_status", ([01;35m[K0[m[K, 0, 0));
+      |                                                            [01;35m[K^[m[K
+[01m[K/home/nikhil/ROS/ros2_ws/src/course_activities/src/led_panel.cpp:13:66:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   13 |             this->declare_parameter("led_initial_status", (0, 0, [01;35m[K0[m[K));
+      |                                                                  [01;35m[K^[m[K
