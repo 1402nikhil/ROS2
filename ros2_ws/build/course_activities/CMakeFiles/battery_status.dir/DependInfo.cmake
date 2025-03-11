@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nikhil/ROS/ros2_ws/src/course_activities/src/battery_status.cpp" "CMakeFiles/battery_status.dir/src/battery_status.cpp.o" "gcc" "CMakeFiles/battery_status.dir/src/battery_status.cpp.o.d"
+  "/home/nikhil/Work/ROS/ros2_ws/src/course_activities/src/battery_status.cpp" "CMakeFiles/battery_status.dir/src/battery_status.cpp.o" "gcc" "CMakeFiles/battery_status.dir/src/battery_status.cpp.o.d"
   )
 
 # Targets to which this target links.

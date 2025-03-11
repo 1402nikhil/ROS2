@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nikhil/ROS/ros2_ws/src/course_activities
+CMAKE_SOURCE_DIR = /home/nikhil/Work/ROS/ros2_ws/src/course_activities
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nikhil/ROS/ros2_ws/build/course_activities
+CMAKE_BINARY_DIR = /home/nikhil/Work/ROS/ros2_ws/build/course_activities
 
 # Include any dependencies generated for this target.
 include CMakeFiles/battery_status.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/battery_status.dir/progress.make
 include CMakeFiles/battery_status.dir/flags.make
 
 CMakeFiles/battery_status.dir/src/battery_status.cpp.o: CMakeFiles/battery_status.dir/flags.make
-CMakeFiles/battery_status.dir/src/battery_status.cpp.o: /home/nikhil/ROS/ros2_ws/src/course_activities/src/battery_status.cpp
+CMakeFiles/battery_status.dir/src/battery_status.cpp.o: /home/nikhil/Work/ROS/ros2_ws/src/course_activities/src/battery_status.cpp
 CMakeFiles/battery_status.dir/src/battery_status.cpp.o: CMakeFiles/battery_status.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikhil/ROS/ros2_ws/build/course_activities/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/battery_status.dir/src/battery_status.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/battery_status.dir/src/battery_status.cpp.o -MF CMakeFiles/battery_status.dir/src/battery_status.cpp.o.d -o CMakeFiles/battery_status.dir/src/battery_status.cpp.o -c /home/nikhil/ROS/ros2_ws/src/course_activities/src/battery_status.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nikhil/Work/ROS/ros2_ws/build/course_activities/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/battery_status.dir/src/battery_status.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/battery_status.dir/src/battery_status.cpp.o -MF CMakeFiles/battery_status.dir/src/battery_status.cpp.o.d -o CMakeFiles/battery_status.dir/src/battery_status.cpp.o -c /home/nikhil/Work/ROS/ros2_ws/src/course_activities/src/battery_status.cpp
 
 CMakeFiles/battery_status.dir/src/battery_status.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battery_status.dir/src/battery_status.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikhil/ROS/ros2_ws/src/course_activities/src/battery_status.cpp > CMakeFiles/battery_status.dir/src/battery_status.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nikhil/Work/ROS/ros2_ws/src/course_activities/src/battery_status.cpp > CMakeFiles/battery_status.dir/src/battery_status.cpp.i
 
 CMakeFiles/battery_status.dir/src/battery_status.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battery_status.dir/src/battery_status.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikhil/ROS/ros2_ws/src/course_activities/src/battery_status.cpp -o CMakeFiles/battery_status.dir/src/battery_status.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nikhil/Work/ROS/ros2_ws/src/course_activities/src/battery_status.cpp -o CMakeFiles/battery_status.dir/src/battery_status.cpp.s
 
 # Object files for target battery_status
 battery_status_OBJECTS = \
@@ -93,12 +93,12 @@ battery_status_EXTERNAL_OBJECTS =
 battery_status: CMakeFiles/battery_status.dir/src/battery_status.cpp.o
 battery_status: CMakeFiles/battery_status.dir/build.make
 battery_status: /opt/ros/humble/lib/librclcpp.so
-battery_status: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
-battery_status: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
-battery_status: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
-battery_status: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
-battery_status: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
-battery_status: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+battery_status: /home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+battery_status: /home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+battery_status: /home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+battery_status: /home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+battery_status: /home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+battery_status: /home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
 battery_status: /opt/ros/humble/lib/liblibstatistics_collector.so
 battery_status: /opt/ros/humble/lib/librcl.so
 battery_status: /opt/ros/humble/lib/librmw_implementation.so
@@ -147,15 +147,15 @@ battery_status: /opt/ros/humble/lib/librmw.so
 battery_status: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 battery_status: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 battery_status: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-battery_status: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
-battery_status: /home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+battery_status: /home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+battery_status: /home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
 battery_status: /opt/ros/humble/lib/librosidl_typesupport_c.so
 battery_status: /opt/ros/humble/lib/librcpputils.so
 battery_status: /opt/ros/humble/lib/librosidl_runtime_c.so
 battery_status: /opt/ros/humble/lib/librcutils.so
 battery_status: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 battery_status: CMakeFiles/battery_status.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikhil/ROS/ros2_ws/build/course_activities/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable battery_status"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nikhil/Work/ROS/ros2_ws/build/course_activities/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable battery_status"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/battery_status.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -167,6 +167,6 @@ CMakeFiles/battery_status.dir/clean:
 .PHONY : CMakeFiles/battery_status.dir/clean
 
 CMakeFiles/battery_status.dir/depend:
-	cd /home/nikhil/ROS/ros2_ws/build/course_activities && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikhil/ROS/ros2_ws/src/course_activities /home/nikhil/ROS/ros2_ws/src/course_activities /home/nikhil/ROS/ros2_ws/build/course_activities /home/nikhil/ROS/ros2_ws/build/course_activities /home/nikhil/ROS/ros2_ws/build/course_activities/CMakeFiles/battery_status.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nikhil/Work/ROS/ros2_ws/build/course_activities && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikhil/Work/ROS/ros2_ws/src/course_activities /home/nikhil/Work/ROS/ros2_ws/src/course_activities /home/nikhil/Work/ROS/ros2_ws/build/course_activities /home/nikhil/Work/ROS/ros2_ws/build/course_activities /home/nikhil/Work/ROS/ros2_ws/build/course_activities/CMakeFiles/battery_status.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/battery_status.dir/depend
 

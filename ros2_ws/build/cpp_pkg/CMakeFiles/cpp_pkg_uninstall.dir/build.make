@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nikhil/ROS/ros2_ws/src/cpp_pkg
+CMAKE_SOURCE_DIR = /home/nikhil/Work/ROS/ros2_ws/src/cpp_pkg
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nikhil/ROS/ros2_ws/build/cpp_pkg
+CMAKE_BINARY_DIR = /home/nikhil/Work/ROS/ros2_ws/build/cpp_pkg
 
 # Utility rule file for cpp_pkg_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/cpp_pkg_uninstall.dir/compiler_depend.make
 include CMakeFiles/cpp_pkg_uninstall.dir/progress.make
 
 CMakeFiles/cpp_pkg_uninstall:
-	/usr/bin/cmake -P /home/nikhil/ROS/ros2_ws/build/cpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nikhil/Work/ROS/ros2_ws/build/cpp_pkg/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cpp_pkg_uninstall: CMakeFiles/cpp_pkg_uninstall
 cpp_pkg_uninstall: CMakeFiles/cpp_pkg_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/cpp_pkg_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp_pkg_uninstall.dir/clean
 
 CMakeFiles/cpp_pkg_uninstall.dir/depend:
-	cd /home/nikhil/ROS/ros2_ws/build/cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikhil/ROS/ros2_ws/src/cpp_pkg /home/nikhil/ROS/ros2_ws/src/cpp_pkg /home/nikhil/ROS/ros2_ws/build/cpp_pkg /home/nikhil/ROS/ros2_ws/build/cpp_pkg /home/nikhil/ROS/ros2_ws/build/cpp_pkg/CMakeFiles/cpp_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nikhil/Work/ROS/ros2_ws/build/cpp_pkg && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikhil/Work/ROS/ros2_ws/src/cpp_pkg /home/nikhil/Work/ROS/ros2_ws/src/cpp_pkg /home/nikhil/Work/ROS/ros2_ws/build/cpp_pkg /home/nikhil/Work/ROS/ros2_ws/build/cpp_pkg /home/nikhil/Work/ROS/ros2_ws/build/cpp_pkg/CMakeFiles/cpp_pkg_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp_pkg_uninstall.dir/depend
 

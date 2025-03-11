@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nikhil/ROS/ros2_ws/src/course_activities/src/reset_counter_client.cpp" "CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.o" "gcc" "CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.o.d"
+  "/home/nikhil/Work/ROS/ros2_ws/src/course_activities/src/reset_counter_client.cpp" "CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.o" "gcc" "CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.o.d"
   )
 
 # Targets to which this target links.

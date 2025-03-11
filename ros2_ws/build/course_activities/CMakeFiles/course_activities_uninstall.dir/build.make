@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nikhil/ROS/ros2_ws/src/course_activities
+CMAKE_SOURCE_DIR = /home/nikhil/Work/ROS/ros2_ws/src/course_activities
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nikhil/ROS/ros2_ws/build/course_activities
+CMAKE_BINARY_DIR = /home/nikhil/Work/ROS/ros2_ws/build/course_activities
 
 # Utility rule file for course_activities_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/course_activities_uninstall.dir/compiler_depend.make
 include CMakeFiles/course_activities_uninstall.dir/progress.make
 
 CMakeFiles/course_activities_uninstall:
-	/usr/bin/cmake -P /home/nikhil/ROS/ros2_ws/build/course_activities/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/nikhil/Work/ROS/ros2_ws/build/course_activities/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 course_activities_uninstall: CMakeFiles/course_activities_uninstall
 course_activities_uninstall: CMakeFiles/course_activities_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/course_activities_uninstall.dir/clean:
 .PHONY : CMakeFiles/course_activities_uninstall.dir/clean
 
 CMakeFiles/course_activities_uninstall.dir/depend:
-	cd /home/nikhil/ROS/ros2_ws/build/course_activities && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikhil/ROS/ros2_ws/src/course_activities /home/nikhil/ROS/ros2_ws/src/course_activities /home/nikhil/ROS/ros2_ws/build/course_activities /home/nikhil/ROS/ros2_ws/build/course_activities /home/nikhil/ROS/ros2_ws/build/course_activities/CMakeFiles/course_activities_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nikhil/Work/ROS/ros2_ws/build/course_activities && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nikhil/Work/ROS/ros2_ws/src/course_activities /home/nikhil/Work/ROS/ros2_ws/src/course_activities /home/nikhil/Work/ROS/ros2_ws/build/course_activities /home/nikhil/Work/ROS/ros2_ws/build/course_activities /home/nikhil/Work/ROS/ros2_ws/build/course_activities/CMakeFiles/course_activities_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/course_activities_uninstall.dir/depend
 
