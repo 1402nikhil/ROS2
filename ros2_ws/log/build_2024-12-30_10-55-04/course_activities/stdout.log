@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target battery_status[0m
-[ 10%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
-[ 30%] Built target number_publisher
-[ 70%] Built target reset_counter_client
-[ 70%] Built target number_counter
-[ 80%] [32mBuilding CXX object CMakeFiles/battery_status.dir/src/battery_status.cpp.o[0m
-[ 90%] [32m[1mLinking CXX executable battery_status[0m
-[ 90%] Built target battery_status

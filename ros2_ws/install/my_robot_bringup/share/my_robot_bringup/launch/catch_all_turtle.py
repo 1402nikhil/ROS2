@@ -1,1 +1,0 @@
-/home/nikhil/ROS/ros2_ws/src/my_robot_bringup/launch/catch_all_turtle.py

@@ -1,0 +1,38 @@
+[0.476s] Invoking command in '/home/nikhil/Work/ROS/ros2_ws/src/py_pkg': PYTHONPATH=/home/nikhil/Work/ROS/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/Work/ROS/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_pkg build --build-base /home/nikhil/Work/ROS/build/py_pkg/build install --record /home/nikhil/Work/ROS/build/py_pkg/install.log --single-version-externally-managed install_data
+[0.638s] running egg_info
+[0.638s] creating ../../../build/py_pkg/py_pkg.egg-info
+[0.638s] writing ../../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[0.639s] writing dependency_links to ../../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[0.639s] writing entry points to ../../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[0.639s] writing requirements to ../../../build/py_pkg/py_pkg.egg-info/requires.txt
+[0.639s] writing top-level names to ../../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[0.639s] writing manifest file '../../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[0.640s] reading manifest file '../../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[0.640s] adding license file 'LICENSE'
+[0.641s] writing manifest file '../../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[0.641s] running build
+[0.641s] running build_py
+[0.641s] creating /home/nikhil/Work/ROS/build/py_pkg/build
+[0.641s] creating /home/nikhil/Work/ROS/build/py_pkg/build/lib
+[0.641s] creating /home/nikhil/Work/ROS/build/py_pkg/build/lib/py_pkg
+[0.641s] copying py_pkg/__init__.py -> /home/nikhil/Work/ROS/build/py_pkg/build/lib/py_pkg
+[0.642s] copying py_pkg/first_node.py -> /home/nikhil/Work/ROS/build/py_pkg/build/lib/py_pkg
+[0.642s] running install
+[0.642s] running install_lib
+[0.642s] creating /home/nikhil/Work/ROS/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[0.642s] copying /home/nikhil/Work/ROS/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/nikhil/Work/ROS/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[0.642s] copying /home/nikhil/Work/ROS/build/py_pkg/build/lib/py_pkg/first_node.py -> /home/nikhil/Work/ROS/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[0.642s] byte-compiling /home/nikhil/Work/ROS/install/py_pkg/lib/python3.10/site-packages/py_pkg/__init__.py to __init__.cpython-310.pyc
+[0.642s] byte-compiling /home/nikhil/Work/ROS/install/py_pkg/lib/python3.10/site-packages/py_pkg/first_node.py to first_node.cpython-310.pyc
+[0.642s] running install_data
+[0.643s] creating /home/nikhil/Work/ROS/install/py_pkg/share/ament_index
+[0.643s] creating /home/nikhil/Work/ROS/install/py_pkg/share/ament_index/resource_index
+[0.643s] creating /home/nikhil/Work/ROS/install/py_pkg/share/ament_index/resource_index/packages
+[0.643s] copying resource/py_pkg -> /home/nikhil/Work/ROS/install/py_pkg/share/ament_index/resource_index/packages
+[0.643s] copying package.xml -> /home/nikhil/Work/ROS/install/py_pkg/share/py_pkg
+[0.643s] running install_egg_info
+[0.644s] Copying ../../../build/py_pkg/py_pkg.egg-info to /home/nikhil/Work/ROS/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info
+[0.645s] running install_scripts
+[0.659s] Installing my_node script to /home/nikhil/Work/ROS/install/py_pkg/lib/py_pkg
+[0.659s] writing list of installed files to '/home/nikhil/Work/ROS/build/py_pkg/install.log'
+[0.676s] Invoked command in '/home/nikhil/Work/ROS/ros2_ws/src/py_pkg' returned '0': PYTHONPATH=/home/nikhil/Work/ROS/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nikhil/Work/ROS/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/py_pkg build --build-base /home/nikhil/Work/ROS/build/py_pkg/build install --record /home/nikhil/Work/ROS/build/py_pkg/install.log --single-version-externally-managed install_data

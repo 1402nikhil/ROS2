@@ -1,3 +1,0 @@
-#sends the turtle x and y coordinates
-float32 x
-float32 y

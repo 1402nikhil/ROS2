@@ -7,5 +7,6 @@
 #include "my_robot_interfaces/msg/detail/robot_location__struct.hpp"
 #include "my_robot_interfaces/msg/detail/robot_location__builder.hpp"
 #include "my_robot_interfaces/msg/detail/robot_location__traits.hpp"
+#include "my_robot_interfaces/msg/detail/robot_location__type_support.hpp"
 
 #endif  // MY_ROBOT_INTERFACES__MSG__ROBOT_LOCATION_HPP_

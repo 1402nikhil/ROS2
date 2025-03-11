@@ -7,5 +7,6 @@
 #include "my_robot_interfaces/msg/detail/led_status__struct.hpp"
 #include "my_robot_interfaces/msg/detail/led_status__builder.hpp"
 #include "my_robot_interfaces/msg/detail/led_status__traits.hpp"
+#include "my_robot_interfaces/msg/detail/led_status__type_support.hpp"
 
 #endif  // MY_ROBOT_INTERFACES__MSG__LED_STATUS_HPP_

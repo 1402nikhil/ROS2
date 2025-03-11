@@ -1,0 +1,88 @@
+[0.009s] Invoking command in '/home/nikhil/Work/ROS/build/cpp_pkg': AMENT_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nikhil/Work/ROS/ros2_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/nikhil/Work/ROS/install/cpp_pkg
+[0.060s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.122s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.197s] -- Detecting C compile features
+[0.198s] -- Detecting C compile features - done
+[0.201s] -- Detecting CXX compiler ABI info
+[0.283s] -- Detecting CXX compiler ABI info - done
+[0.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.291s] -- Detecting CXX compile features
+[0.291s] -- Detecting CXX compile features - done
+[0.295s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.444s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.526s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.560s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.564s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.570s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.579s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.624s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.626s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.643s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.650s] -- Looking for pthread.h
+[0.715s] -- Looking for pthread.h - found
+[0.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.784s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.785s] -- Found Threads: TRUE  
+[0.845s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.877s] -- Found my_robot_interfaces: 0.0.0 (/home/nikhil/Work/ROS/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.954s] -- Configuring done
+[0.979s] -- Generating done
+[0.992s] -- Build files have been written to: /home/nikhil/Work/ROS/build/cpp_pkg
+[1.002s] Invoked command in '/home/nikhil/Work/ROS/build/cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nikhil/Work/ROS/ros2_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/nikhil/Work/ROS/install/cpp_pkg
+[1.003s] Invoking command in '/home/nikhil/Work/ROS/build/cpp_pkg': AMENT_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nikhil/Work/ROS/build/cpp_pkg -- -j20 -l20
+[1.046s] [ 35%] [32mBuilding CXX object CMakeFiles/smartphone.dir/src/smartphone.cpp.o[0m
+[1.046s] [ 35%] [32mBuilding CXX object CMakeFiles/add_two_ints_client_no_oops.dir/src/add_two_ints_client_no_oops.cpp.o[0m
+[1.046s] [ 35%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o[0m
+[1.046s] [ 35%] [32mBuilding CXX object CMakeFiles/add_two_ints_server.dir/src/add_two_ints_server.cpp.o[0m
+[1.047s] [ 35%] [32mBuilding CXX object CMakeFiles/hw_status_publisher.dir/src/hw_status_publisher.cpp.o[0m
+[1.047s] [ 42%] [32mBuilding CXX object CMakeFiles/robot_news_station.dir/src/robot_news_station.cpp.o[0m
+[1.047s] [ 50%] [32mBuilding CXX object CMakeFiles/add_two_ints_client.dir/src/add_two_ints_client.cpp.o[0m
+[4.655s] [ 57%] [32m[1mLinking CXX executable cpp_node[0m
+[4.814s] [ 57%] Built target cpp_node
+[5.102s] [ 64%] [32m[1mLinking CXX executable add_two_ints_server[0m
+[5.295s] [ 64%] Built target add_two_ints_server
+[5.460s] [ 71%] [32m[1mLinking CXX executable add_two_ints_client[0m
+[5.660s] [ 71%] Built target add_two_ints_client
+[5.934s] [ 78%] [32m[1mLinking CXX executable add_two_ints_client_no_oops[0m
+[6.071s] [ 78%] Built target add_two_ints_client_no_oops
+[6.130s] [ 85%] [32m[1mLinking CXX executable robot_news_station[0m
+[6.193s] [ 92%] [32m[1mLinking CXX executable hw_status_publisher[0m
+[6.298s] [ 92%] Built target robot_news_station
+[6.344s] [ 92%] Built target hw_status_publisher
+[8.981s] [100%] [32m[1mLinking CXX executable smartphone[0m
+[9.274s] [100%] Built target smartphone
+[9.286s] Invoked command in '/home/nikhil/Work/ROS/build/cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nikhil/Work/ROS/build/cpp_pkg -- -j20 -l20
+[9.287s] Invoking command in '/home/nikhil/Work/ROS/build/cpp_pkg': AMENT_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nikhil/Work/ROS/build/cpp_pkg
+[9.292s] -- Install configuration: ""
+[9.292s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/cpp_node
+[9.292s] -- Set runtime path of "/home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/cpp_node" to ""
+[9.292s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/robot_news_station
+[9.293s] -- Set runtime path of "/home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/robot_news_station" to ""
+[9.293s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/smartphone
+[9.294s] -- Set runtime path of "/home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/smartphone" to ""
+[9.295s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/add_two_ints_server
+[9.295s] -- Set runtime path of "/home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/add_two_ints_server" to ""
+[9.295s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/add_two_ints_client_no_oops
+[9.295s] -- Set runtime path of "/home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/add_two_ints_client_no_oops" to ""
+[9.295s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/add_two_ints_client
+[9.296s] -- Set runtime path of "/home/nikhil/Work/ROS/install/cpp_pkg/lib/cpp_pkg/add_two_ints_client" to ""
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/package.dsv
+[9.296s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[9.297s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[9.297s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[9.297s] -- Installing: /home/nikhil/Work/ROS/install/cpp_pkg/share/cpp_pkg/package.xml
+[9.299s] Invoked command in '/home/nikhil/Work/ROS/build/cpp_pkg' returned '0': AMENT_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble LD_LIBRARY_PATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nikhil/Work/ROS/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nikhil/Work/ROS/build/cpp_pkg

@@ -1,0 +1,133 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0718ee16a47f14104bed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "course_activities",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_status::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_status-5f5a6ea43299e0410c08.json",
+					"name" : "battery_status",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-controller-a5bde7b929c7e8c22936.json",
+					"name" : "controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "course_activities_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-course_activities_uninstall-41e421c3a93cbd9d0c09.json",
+					"name" : "course_activities_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "led_panel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-led_panel-242d45c3d643eef787ae.json",
+					"name" : "led_panel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "new_turtle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_turtle-3bdfa078ec9d8c0f32e8.json",
+					"name" : "new_turtle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_counter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_counter-179febcb86c63356e8e9.json",
+					"name" : "number_counter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "number_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-number_publisher-bdb92292b02c3c6c9cab.json",
+					"name" : "number_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "reset_counter_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-reset_counter_client-de8586e31d4808dbfe4c.json",
+					"name" : "reset_counter_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e0c7f18caea5dbac7cfb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nikhil/Work/ROS/build/course_activities",
+		"source" : "/home/nikhil/Work/ROS/ros2_ws/src/course_activities"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

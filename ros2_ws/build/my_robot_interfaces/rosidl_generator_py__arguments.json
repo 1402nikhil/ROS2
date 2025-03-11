@@ -1,13 +1,13 @@
 {
   "package_name": "my_robot_interfaces",
-  "output_dir": "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces",
+  "output_dir": "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_generator_py/my_robot_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStatus.idl",
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/RobotLocation.idl",
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangle.idl",
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/HardwareStatus.idl",
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/LedStatus.idl",
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/RobotLocation.idl",
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ComputeRectangle.idl",
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/SetLed.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -23,10 +23,10 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStatus.idl",
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/RobotLocation.idl",
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangle.idl",
-    "/home/nikhil/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl"
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/HardwareStatus.idl",
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/LedStatus.idl",
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/msg/RobotLocation.idl",
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/ComputeRectangle.idl",
+    "/home/nikhil/Work/ROS/ros2_ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/srv/SetLed.idl"
   ]
 }

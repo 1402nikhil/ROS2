@@ -1,0 +1,92 @@
+[0.007s] Invoking command in '/home/nikhil/Work/ROS/ros2_ws/build/course_activities': CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/nikhil/Work/ROS/ros2_ws/src/course_activities -DCMAKE_INSTALL_PREFIX=/home/nikhil/Work/ROS/ros2_ws/install/course_activities
+[0.047s] -- The C compiler identification is GNU 11.4.0
+[0.086s] -- The CXX compiler identification is GNU 11.4.0
+[0.092s] -- Detecting C compiler ABI info
+[0.144s] -- Detecting C compiler ABI info - done
+[0.150s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.150s] -- Detecting C compile features
+[0.150s] -- Detecting C compile features - done
+[0.151s] -- Detecting CXX compiler ABI info
+[0.206s] -- Detecting CXX compiler ABI info - done
+[0.211s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.211s] -- Detecting CXX compile features
+[0.212s] -- Detecting CXX compile features - done
+[0.213s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.308s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.369s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.398s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.401s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.406s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.422s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.453s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.474s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.481s] -- Looking for pthread.h
+[0.534s] -- Looking for pthread.h - found
+[0.534s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.586s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.586s] -- Found Threads: TRUE  
+[0.630s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.662s] -- Found my_robot_interfaces: 0.0.0 (/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.668s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[0.680s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.729s] -- Configuring done
+[0.743s] -- Generating done
+[0.749s] -- Build files have been written to: /home/nikhil/Work/ROS/ros2_ws/build/course_activities
+[0.754s] Invoked command in '/home/nikhil/Work/ROS/ros2_ws/build/course_activities' returned '0': CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/nikhil/Work/ROS/ros2_ws/src/course_activities -DCMAKE_INSTALL_PREFIX=/home/nikhil/Work/ROS/ros2_ws/install/course_activities
+[0.755s] Invoking command in '/home/nikhil/Work/ROS/ros2_ws/build/course_activities': CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/ros2_ws/build/course_activities -- -j20 -l20
+[0.792s] [  7%] [32mBuilding CXX object CMakeFiles/number_publisher.dir/src/number_publisher.cpp.o[0m
+[0.794s] [ 21%] [32mBuilding CXX object CMakeFiles/reset_counter_client.dir/src/reset_counter_client.cpp.o[0m
+[0.794s] [ 21%] [32mBuilding CXX object CMakeFiles/battery_status.dir/src/battery_status.cpp.o[0m
+[0.796s] [ 28%] [32mBuilding CXX object CMakeFiles/new_turtle.dir/src/new_turtle.cpp.o[0m
+[0.797s] [ 35%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[0.798s] [ 42%] [32mBuilding CXX object CMakeFiles/number_counter.dir/src/number_counter.cpp.o[0m
+[0.798s] [ 50%] [32mBuilding CXX object CMakeFiles/led_panel.dir/src/led_panel.cpp.o[0m
+[3.210s] [ 57%] [32m[1mLinking CXX executable reset_counter_client[0m
+[3.402s] [ 57%] Built target reset_counter_client
+[3.803s] [ 64%] [32m[1mLinking CXX executable number_publisher[0m
+[4.000s] [ 64%] Built target number_publisher
+[4.248s] [ 71%] [32m[1mLinking CXX executable new_turtle[0m
+[4.369s] [ 78%] [32m[1mLinking CXX executable battery_status[0m
+[4.445s] [ 78%] Built target new_turtle
+[4.492s] [ 78%] Built target battery_status
+[5.241s] [ 85%] [32m[1mLinking CXX executable led_panel[0m
+[5.384s] [ 85%] Built target led_panel
+[7.400s] [ 92%] [32m[1mLinking CXX executable number_counter[0m
+[7.640s] [ 92%] Built target number_counter
+[9.575s] [100%] [32m[1mLinking CXX executable controller[0m
+[9.929s] [100%] Built target controller
+[9.940s] Invoked command in '/home/nikhil/Work/ROS/ros2_ws/build/course_activities' returned '0': CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/ros2_ws/build/course_activities -- -j20 -l20
+[9.940s] Invoking command in '/home/nikhil/Work/ROS/ros2_ws/build/course_activities': CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/ros2_ws/build/course_activities
+[9.947s] -- Install configuration: ""
+[9.947s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/number_publisher
+[9.948s] -- Set runtime path of "/home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/number_publisher" to ""
+[9.948s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/number_counter
+[9.950s] -- Set runtime path of "/home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/number_counter" to ""
+[9.950s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/reset_counter_client
+[9.951s] -- Set runtime path of "/home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/reset_counter_client" to ""
+[9.951s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/battery_status
+[9.951s] -- Set runtime path of "/home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/battery_status" to ""
+[9.951s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/led_panel
+[9.952s] -- Set runtime path of "/home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/led_panel" to ""
+[9.952s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/new_turtle
+[9.952s] -- Set runtime path of "/home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/new_turtle" to ""
+[9.952s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/controller
+[9.955s] -- Set runtime path of "/home/nikhil/Work/ROS/ros2_ws/install/course_activities/lib/course_activities/controller" to ""
+[9.955s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/package_run_dependencies/course_activities
+[9.955s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/parent_prefix_path/course_activities
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/environment/ament_prefix_path.sh
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/environment/ament_prefix_path.dsv
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/environment/path.sh
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/environment/path.dsv
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.bash
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.sh
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.zsh
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/local_setup.dsv
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/package.dsv
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/ament_index/resource_index/packages/course_activities
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/cmake/course_activitiesConfig.cmake
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/cmake/course_activitiesConfig-version.cmake
+[9.956s] -- Installing: /home/nikhil/Work/ROS/ros2_ws/install/course_activities/share/course_activities/package.xml
+[9.958s] Invoked command in '/home/nikhil/Work/ROS/ros2_ws/build/course_activities' returned '0': CMAKE_PREFIX_PATH=/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_simulations:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo:/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node:/home/nikhil/Work/ROS/ros2_ws_1/install/mera_robot_bringup:/home/nikhil/Work/ROS/ros2_ws_1/install/my_robot_description:/home/nikhil/Work/ROS/ros2_ws/install/my_robot_bringup:/home/nikhil/Work/ROS/ros2_ws/install/cpp_pkg:/home/nikhil/Work/ROS/ros2_ws/install/course_activities:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/ros2_ws/build/course_activities

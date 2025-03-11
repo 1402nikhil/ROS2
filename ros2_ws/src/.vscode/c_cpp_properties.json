@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "/opt/ros/humble/include/**",
-                "/home/nikhil/ROS/ros2_ws/install/my_robot_interfaces/include/**"
+                "/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/include/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
