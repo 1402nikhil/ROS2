@@ -11,7 +11,8 @@
         "/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/include/**",
         "/opt/ros/humble/include/**",
         "/home/nikhil/Work/ROS/control_ws/src/motor/include/**",
-        "/usr/include/**"
+        "/usr/include/**",
+        "/home/nikhil/Work/ROS/control_ws/src/motor_control/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

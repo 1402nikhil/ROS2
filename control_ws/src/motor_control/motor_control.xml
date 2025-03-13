@@ -1,0 +1,8 @@
+<library path="libmotor_control">
+    <class type="motor_control::MotorHardwareInterface"
+            base_class_type="hardware_interface::ActuatorInterface">
+        <description>
+            Motor Hardware interface Plugin for ROS2 control
+        </description>
+    </class>
+</library>
