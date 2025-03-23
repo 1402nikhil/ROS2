@@ -6,13 +6,14 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
+        "/home/nikhil/Work/ROS/control_ws/install/ros2_control_demo_example_2/include/**",
+        "/home/nikhil/Work/ROS/microRos_ws/install/micro_ros_agent/include/**",
+        "/home/nikhil/Work/ROS/microRos_ws/install/micro_ros_msgs/include/**",
         "/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
         "/home/nikhil/Work/ROS/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
         "/home/nikhil/Work/ROS/ros2_ws/install/my_robot_interfaces/include/**",
         "/opt/ros/humble/include/**",
-        "/home/nikhil/Work/ROS/control_ws/src/motor/include/**",
-        "/usr/include/**",
-        "/home/nikhil/Work/ROS/control_ws/src/motor_control/include/**"
+        "/usr/include/**"
       ],
       "name": "ROS",
       "intelliSenseMode": "gcc-x64",

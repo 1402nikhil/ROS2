@@ -1,0 +1,54 @@
+[0.010s] Invoking command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/diff_drive -- -j20 -l20
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target diff_drive[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_drive.dir/hardware/diffdrive_system.cpp.o[0m
+[1.220s] In file included from [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/diffdrive_system.cpp:1[m[K:
+[1.220s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:40:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.220s]    40 |             RCLCPP_SHARED_PTR_DEFINITIONS(DiffDriveHardware)[01;35m[K;[m[K
+[1.220s]       |                                                             [01;35m[K^[m[K
+[1.220s]       |                                                             [31m[K-[m[K
+[6.363s] [100%] [32m[1mLinking CXX shared library libdiff_drive.so[0m
+[6.762s] [100%] Built target diff_drive
+[6.774s] Invoked command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/diff_drive -- -j20 -l20
+[6.775s] Invoking command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/diff_drive
+[6.780s] -- Install configuration: ""
+[6.780s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/diff_drive.xml
+[6.780s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive
+[6.781s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive/diff_drive
+[6.781s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive/diff_drive/wheel.hpp
+[6.781s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive/diff_drive/visibility_control.h
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive/diff_drive/diffdrive_system.hpp
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/launch
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/ros2_control
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/ros2_control/diffbot.ros2_control.xacro
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/urdf
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/urdf/diffbot.urdf.xacro
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/urdf/diffbot_description.urdf.xacro
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/urdf/diffbot.materials.xacro
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/rviz
+[6.781s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/launch
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/config
+[6.781s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/lib/libdiff_drive.so
+[6.786s] -- Set runtime path of "/home/nikhil/Work/ROS/control_ws/install/diff_drive/lib/libdiff_drive.so" to ""
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/environment/library_path.sh
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/environment/library_path.dsv
+[6.786s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/ament_index/resource_index/package_run_dependencies/diff_drive
+[6.786s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/ament_index/resource_index/parent_prefix_path/diff_drive
+[6.786s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/environment/ament_prefix_path.sh
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/environment/ament_prefix_path.dsv
+[6.786s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/environment/path.sh
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/environment/path.dsv
+[6.786s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/local_setup.bash
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/local_setup.sh
+[6.786s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/local_setup.zsh
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/local_setup.dsv
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/package.dsv
+[6.786s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/ament_index/resource_index/packages/diff_drive
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diff_drive
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/cmake/export_diff_driveExport.cmake
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/cmake/export_diff_driveExport-noconfig.cmake
+[6.786s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/cmake/ament_cmake_export_targets-extras.cmake
+[6.787s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.787s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/cmake/diff_driveConfig.cmake
+[6.787s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/cmake/diff_driveConfig-version.cmake
+[6.787s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/package.xml
+[6.788s] Invoked command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/diff_drive

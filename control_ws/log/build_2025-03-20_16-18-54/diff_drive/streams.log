@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/diff_drive -- -j20 -l20
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_drive.dir/hardware/diffdrive_system.cpp.o[0m
+[1.290s] In file included from [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/diffdrive_system.cpp:1[m[K:
+[1.290s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:40:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.290s]    40 |             RCLCPP_SHARED_PTR_DEFINITIONS(DiffDriveHardware)[01;35m[K;[m[K
+[1.290s]       |                                                             [01;35m[K^[m[K
+[1.290s]       |                                                             [31m[K-[m[K
+[1.310s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:83:88:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[1.310s]    83 | p::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_publisher_;[01;35m[K;[m[K
+[1.310s]       |                                                                       [01;35m[K^[m[K
+[1.310s]       |                                                                       [31m[K-[m[K
+[6.729s] [100%] [32m[1mLinking CXX shared library libdiff_drive.so[0m
+[7.167s] [100%] Built target diff_drive
+[7.177s] Invoked command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/diff_drive -- -j20 -l20
+[7.178s] Invoking command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/diff_drive
+[7.183s] -- Install configuration: ""
+[7.183s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/share/diff_drive/diff_drive.xml
+[7.183s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive
+[7.183s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive/diff_drive
+[7.183s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive/diff_drive/wheel.hpp
+[7.183s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive/diff_drive/visibility_control.h
+[7.183s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/diff_drive/include/diff_drive/diff_drive/diffdrive_system.hpp
+[7.183s] [31mCMake Error at cmake_install.cmake:54 (file):
+[7.183s]   file INSTALL cannot find
+[7.184s]   "/home/nikhil/Work/ROS/control_ws/src/diff_drive/description/launch": No
+[7.184s]   such file or directory.
+[7.184s] 
+[7.184s] [0m
+[7.185s] Invoked command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/diff_drive

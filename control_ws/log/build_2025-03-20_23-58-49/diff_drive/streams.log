@@ -1,0 +1,42 @@
+[0.008s] Invoking command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/diff_drive -- -j20 -l20
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target diff_drive[0m
+[0.055s] [ 50%] [32mBuilding CXX object CMakeFiles/diff_drive.dir/hardware/diffdrive_system.cpp.o[0m
+[1.239s] In file included from [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/diffdrive_system.cpp:1[m[K:
+[1.239s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:85:49:[m[K [01;31m[Kerror: [m[K‘[01m[KBool[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[1.239s]    85 |             rclcpp::Subscription<std_msgs::msg::[01;31m[KBool[m[K>::SharedPtr subscription_;
+[1.239s]       |                                                 [01;31m[K^~~~[m[K
+[1.240s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:85:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.240s]    85 |             rclcpp::Subscription<std_msgs::msg::Bool[01;31m[K>[m[K::SharedPtr subscription_;
+[1.240s]       |                                                     [01;31m[K^[m[K
+[1.240s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:85:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.240s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:85:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.240s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:85:53:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.240s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:85:56:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.240s]    85 |             rclcpp::Subscription<std_msgs::msg::Bool>::[01;31m[KSharedPtr[m[K subscription_;
+[1.240s]       |                                                        [01;31m[K^~~~~~~~~[m[K
+[1.240s]       |                                                                 [32m[K;[m[K
+[1.248s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:85:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kint diff_drive::DiffDriveHardware::SharedPtr[m[K’ conflicts with a previous declaration
+[1.248s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35[m[K,
+[1.248s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+[1.248s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.248s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.248s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.248s]                  from [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:10[m[K,
+[1.248s]                  from [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/diffdrive_system.cpp:1[m[K:
+[1.248s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:40:13:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kusing SharedPtr = class std::shared_ptr<diff_drive::DiffDriveHardware>[m[K’
+[1.248s]    40 |             [01;36m[KRCLCPP_SHARED_PTR_DEFINITIONS[m[K(DiffDriveHardware)
+[1.248s]       |             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.249s] In file included from [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/diffdrive_system.cpp:1[m[K:
+[1.249s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:85:66:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.249s]    85 |             rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr [01;31m[Ksubscription_[m[K;
+[1.249s]       |                                                                  [01;31m[K^~~~~~~~~~~~~[m[K
+[1.250s]       |                                                                  [32m[Krmw_subscription_t[m[K
+[1.271s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/diffdrive_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn diff_drive::DiffDriveHardware::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[1.272s] [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/diffdrive_system.cpp:142:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[1.272s]   142 |             [01;31m[Ksubscription_[m[K = node->create_subscription<std_msgs::msg::Bool>(
+[1.272s]       |             [01;31m[K^~~~~~~~~~~~~[m[K
+[1.272s]       |             [32m[Krmw_subscription_t[m[K
+[3.131s] gmake[2]: *** [CMakeFiles/diff_drive.dir/build.make:76: CMakeFiles/diff_drive.dir/hardware/diffdrive_system.cpp.o] Error 1
+[3.131s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/diff_drive.dir/all] Error 2
+[3.131s] gmake: *** [Makefile:146: all] Error 2
+[3.133s] Invoked command in '/home/nikhil/Work/ROS/control_ws/build/diff_drive' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/diff_drive -- -j20 -l20

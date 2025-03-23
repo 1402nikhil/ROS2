@@ -1,0 +1,216 @@
+[0.091s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/nikhil/Work/ROS/microRos_ws']
+[0.091s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/nikhil/Work/ROS/microRos_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76b8055a8850>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x76b80557bfd0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x76b80557bfd0>>, mixin_verb=('list',))
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nikhil/Work/ROS/microRos_ws'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extensions ['colcon_meta']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extension 'ros'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extensions ['cmake', 'python']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extension 'cmake'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extension 'python'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extensions ['python_setup_py']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws) by extension 'python_setup_py'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/build) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/build) ignored
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/install) by extension 'ignore'
+[0.231s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/install) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/log) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/log) ignored
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extension 'ignore'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extension 'ignore_ament_install'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extensions ['colcon_pkg']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extension 'colcon_pkg'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extensions ['colcon_meta']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extension 'colcon_meta'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extensions ['ros']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extension 'ros'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extensions ['cmake', 'python']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extension 'cmake'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extension 'python'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extensions ['python_setup_py']
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test) by extension 'python_setup_py'
+[0.232s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/include) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extension 'ros'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extensions ['cmake', 'python']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extension 'cmake'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extension 'python'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extensions ['python_setup_py']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/lib) by extension 'python_setup_py'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extension 'ignore'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extension 'ignore_ament_install'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extensions ['colcon_pkg']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extension 'colcon_pkg'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extensions ['colcon_meta']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extension 'colcon_meta'
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extensions ['ros']
+[0.233s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/src) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extension 'ros'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extensions ['cmake', 'python']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extension 'cmake'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extension 'python'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extensions ['python_setup_py']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/microRos_test/test) by extension 'python_setup_py'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup) by extension 'ignore'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup) by extension 'colcon_pkg'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup) by extensions ['colcon_meta']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup) by extension 'colcon_meta'
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup) by extensions ['ros']
+[0.234s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup) by extension 'ros'
+[0.236s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nikhil/Work/ROS/microRos_ws/src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extension 'ros'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extension 'python'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs) by extension 'ignore'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs) by extensions ['ros']
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs) by extension 'ros'
+[0.241s] DEBUG:colcon.colcon_core.package_identification:Package '/home/nikhil/Work/ROS/microRos_ws/src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
