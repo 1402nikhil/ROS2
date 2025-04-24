@@ -1,0 +1,4 @@
+Invoking command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel': /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/three_wheel -- -j20 -l20
+Invoked command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel' returned '0': /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/three_wheel -- -j20 -l20
+Invoking command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel': /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/three_wheel
+Invoked command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel' returned '0': /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/three_wheel

@@ -1,0 +1,166 @@
+[0.013s] Invoking command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20
+[0.051s] [ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp /home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller_parameter.yaml `[0m
+[0.686s] [ 33%] [34m[1mCreating deprecated header file /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller_parameters.hpp[0m
+[0.718s] [ 33%] Built target three_omniwheel_controller_parameters
+[0.730s] [35m[1mConsolidate compiler generated dependencies of target three_omniwheel_controller[0m
+[0.748s] [ 50%] [32mBuilding CXX object CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o[0m
+[2.076s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.076s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.076s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:[m[K In member function ‘[01m[Krcl_interfaces::msg::SetParametersResult three_omniwheel_controller::ParamListener::update(const std::vector<rclcpp::Parameter>&)[m[K’:
+[2.076s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:310:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(const rclcpp::Parameter&, bool)[m[K’
+[2.076s]   310 |             if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.076s]       |                                         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.076s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.076s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.076s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.076s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.076s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.076s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.076s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.076s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.076s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.076s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:310:50:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.076s]   310 |             if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.076s]       |                                         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.077s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:318:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(const rclcpp::Parameter&, bool)[m[K’
+[2.077s]   318 |             if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.077s]       |                                         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.077s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.077s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.077s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.077s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.077s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.077s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.077s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.077s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.077s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.077s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:318:50:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.077s]   318 |             if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.077s]       |                                         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.077s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:326:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(const rclcpp::Parameter&, bool)[m[K’
+[2.077s]   326 |             if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.077s]       |                                         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.077s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.077s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.077s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.077s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.077s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.077s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.077s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.077s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.077s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.077s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:326:50:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.077s]   326 |             if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.078s]       |                                         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.078s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:334:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(const rclcpp::Parameter&, bool)[m[K’
+[2.078s]   334 |             if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.078s]       |                                         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.078s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.078s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.078s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.078s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.078s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.078s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.078s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.078s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.078s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.078s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:334:50:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.078s]   334 |             if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.078s]       |                                         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.078s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:342:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(const rclcpp::Parameter&, bool)[m[K’
+[2.078s]   342 |             if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.078s]       |                                         [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.078s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.078s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.078s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.078s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.078s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.078s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.078s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.078s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.079s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.079s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:342:50:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.079s]   342 |             if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.079s]       |                                         [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.107s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.107s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.107s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:[m[K In member function ‘[01m[Kvoid three_omniwheel_controller::ParamListener::declare_params()[m[K’:
+[2.107s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:958:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(rclcpp::Parameter&, bool)[m[K’
+[2.107s]   958 |       if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.107s]       |                                   [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.107s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.107s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.108s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.108s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.108s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.108s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.108s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.108s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.108s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.108s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:958:44:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.108s]   958 |       if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.108s]       |                                   [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.108s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:965:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(rclcpp::Parameter&, bool)[m[K’
+[2.108s]   965 |       if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.108s]       |                                   [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.108s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.108s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.108s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.108s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.108s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.108s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.108s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.108s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.109s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.109s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:965:44:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.109s]   965 |       if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.109s]       |                                   [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.109s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:972:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(rclcpp::Parameter&, bool)[m[K’
+[2.109s]   972 |       if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.109s]       |                                   [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.109s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.109s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.109s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.109s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.109s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.109s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.109s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.109s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.109s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.109s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:972:44:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.109s]   972 |       if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.109s]       |                                   [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.109s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:979:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(rclcpp::Parameter&, bool)[m[K’
+[2.109s]   979 |       if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.109s]       |                                   [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.109s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.109s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.109s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.109s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.109s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.109s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.109s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.109s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.109s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.109s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:979:44:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.109s]   979 |       if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.109s]       |                                   [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.109s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:986:44:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Knot_empty(rclcpp::Parameter&, bool)[m[K’
+[2.110s]   986 |       if(auto validation_result = [01;31m[Knot_empty(param, true)[m[K;
+[2.110s]       |                                   [01;31m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[2.110s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:28[m[K,
+[2.110s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.110s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.110s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> tl::expected<void, std::__cxx11::basic_string<char> > rsl::not_empty(const rclcpp::Parameter&)[m[K’
+[2.110s]   127 | [[nodiscard]] auto [01;36m[Knot_empty[m[K(rclcpp::Parameter const& parameter)
+[2.110s]       |                    [01;36m[K^~~~~~~~~[m[K
+[2.110s] [01m[K/opt/ros/humble/include/rsl/rsl/parameter_validators.hpp:127:20:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.110s] In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:26[m[K,
+[2.110s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[2.110s] [01m[K/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp:986:44:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.110s]   986 |       if(auto validation_result = [01;36m[Knot_empty(param, true)[m[K;
+[2.110s]       |                                   [01;36m[K~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.125s] gmake[2]: *** [CMakeFiles/three_omniwheel_controller.dir/build.make:76: CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o] Error 1
+[4.125s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/three_omniwheel_controller.dir/all] Error 2
+[4.125s] gmake: *** [Makefile:146: all] Error 2
+[4.127s] Invoked command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20

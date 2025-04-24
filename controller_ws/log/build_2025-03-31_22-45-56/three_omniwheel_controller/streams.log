@@ -1,0 +1,41 @@
+[0.018s] Invoking command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20
+[0.085s] [ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp /home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller_parameter.yaml `[0m
+[0.258s] Traceback (most recent call last):
+[0.259s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 200, in __init__
+[0.259s]     self.lang_str_value = func(default_value)
+[0.260s]   File "/usr/lib/python3/dist-packages/typeguard.py", line 493, in wrapper
+[0.260s]     check_argument_types(memo)
+[0.260s]   File "/usr/lib/python3/dist-packages/typeguard.py", line 462, in check_argument_types
+[0.260s]     raise TypeError(exc) from None
+[0.260s] TypeError: type of argument "s" must be one of (NoneType, str); got list instead
+[0.261s] 
+[0.261s] During handling of the above exception, another exception occurred:
+[0.261s] 
+[0.261s] Traceback (most recent call last):
+[0.261s]   File "/opt/ros/humble/bin/generate_parameter_library_cpp", line 33, in <module>
+[0.261s]     sys.exit(load_entry_point('generate-parameter-library-py==0.4.0', 'console_scripts', 'generate_parameter_library_cpp')())
+[0.262s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_cpp_header.py", line 66, in main
+[0.262s]     run(output_file, yaml_file, validate_header)
+[0.262s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/generate_cpp_header.py", line 45, in run
+[0.262s]     gen_param_struct.parse(yaml_file, validate_header)
+[0.262s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 777, in parse
+[0.262s]     self.parse_dict(self.namespace, doc[self.namespace], [])
+[0.263s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 884, in parse_dict
+[0.263s]     self.parse_dict(key, root_map[key], nested_name)
+[0.263s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 890, in parse_dict
+[0.263s]     self.parse_params(name, root_map, nested_name)
+[0.263s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 786, in parse_params
+[0.263s]     ) = preprocess_inputs(self.language, name, value, nested_name_list)
+[0.264s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 698, in preprocess_inputs
+[0.264s]     code_gen_variable = CodeGenVariable(
+[0.264s]   File "/usr/lib/python3/dist-packages/typeguard.py", line 494, in wrapper
+[0.264s]     retval = func(*args, **kwargs)
+[0.264s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 203, in __init__
+[0.265s]     f'Parameter {param_name} has incorrect type. Expected: {defined_type}, got: {self.get_yaml_type_from_python(default_value)}'
+[0.265s]   File "/opt/ros/humble/lib/python3.10/site-packages/generate_parameter_library_py/parse_yaml.py", line 216, in get_yaml_type_from_python
+[0.265s]     return self.conversion.python_list_to_yaml_type[str(type(arg[0]))]
+[0.265s] IndexError: list index out of range
+[0.287s] gmake[2]: *** [CMakeFiles/three_omniwheel_controller_parameters.dir/build.make:71: include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp] Error 1
+[0.287s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/three_omniwheel_controller_parameters.dir/all] Error 2
+[0.288s] gmake: *** [Makefile:146: all] Error 2
+[0.291s] Invoked command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20

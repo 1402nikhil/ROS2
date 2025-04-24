@@ -1,0 +1,13 @@
+[ 33%] Built target three_omniwheel_controller_parameters
+[35m[1mConsolidate compiler generated dependencies of target three_omniwheel_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o[0m
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type three_omniwheel_controller::ThreeOmniwheelController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:163:69:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<three_omniwheel_controller::ThreeOmniwheelController::DeadWheelHandle>, three_omniwheel_controller::ThreeOmniwheelController::DeadWheelHandle>::value_type[m[K’ {aka ‘[01m[Kstruct three_omniwheel_controller::ThreeOmniwheelController::DeadWheelHandle[m[K’} has no member named ‘[01m[Kposition[m[K’
+  163 |             const double x_feedback = registered_x_wheel_handle_[0].[01;31m[Kposition[m[K.get().get_value(); // angular diaplacement in radians
+      |                                                                     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:164:69:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<three_omniwheel_controller::ThreeOmniwheelController::DeadWheelHandle>, three_omniwheel_controller::ThreeOmniwheelController::DeadWheelHandle>::value_type[m[K’ {aka ‘[01m[Kstruct three_omniwheel_controller::ThreeOmniwheelController::DeadWheelHandle[m[K’} has no member named ‘[01m[Kposition[m[K’
+  164 |             const double y_feedback = registered_y_wheel_handle_[0].[01;31m[Kposition[m[K.get().get_value();
+      |                                                                     [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/three_omniwheel_controller.dir/build.make:76: CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/three_omniwheel_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

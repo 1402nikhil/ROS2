@@ -1,0 +1,209 @@
+[0.010s] Invoking command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20
+[0.084s] [ 33%] Built target three_omniwheel_controller_parameters
+[0.111s] [ 66%] [32mBuilding CXX object CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o[0m
+[0.111s] [ 66%] [32mBuilding CXX object CMakeFiles/three_omniwheel_controller.dir/src/odometry.cpp.o[0m
+[1.582s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type three_omniwheel_controller::ThreeOmniwheelController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.583s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:236:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klimiter_linear_x_[m[K’ was not declared in this scope; did you mean ‘[01m[Klimiter_linear_[m[K’?
+[1.583s]   236 |         [01;31m[Klimiter_linear_x_[m[K.limit(linear_command, last_command.linear.x, second_to_last_command.linear.x, period.seconds());
+[1.583s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.583s]       |         [32m[Klimiter_linear_[m[K
+[1.586s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:237:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klimiter_linear_y_[m[K’ was not declared in this scope; did you mean ‘[01m[Klimiter_linear_[m[K’?
+[1.586s]   237 |         [01;31m[Klimiter_linear_y_[m[K.limit(linear_command, last_command.linear.y, second_to_last_command.linear.y, period.seconds());
+[1.586s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.586s]       |         [32m[Klimiter_linear_[m[K
+[1.591s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[1.591s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:316:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klimiter_linear_x_[m[K’ was not declared in this scope; did you mean ‘[01m[Klimiter_linear_[m[K’?
+[1.591s]   316 |         [01;31m[Klimiter_linear_x_[m[K = SpeedLimiter(
+[1.592s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.592s]       |         [32m[Klimiter_linear_[m[K
+[1.595s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:322:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klimiter_linear_y_[m[K’ was not declared in this scope; did you mean ‘[01m[Klimiter_linear_[m[K’?
+[1.595s]   322 |         [01;31m[Klimiter_linear_y_[m[K = SpeedLimiter(
+[1.595s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.595s]       |         [32m[Klimiter_linear_[m[K
+[1.606s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:307:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky_dead_wheel_radius[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.606s]   307 |         const double [01;35m[Ky_dead_wheel_radius[m[K = params_.y_wheel_radius_multiplier * params_.dead_wheel_radius;
+[1.606s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.610s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[1.611s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:470:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kconfigure_side[m[K’ was not declared in this scope; did you mean ‘[01m[Kconfigure_imu[m[K’?
+[1.611s]   470 |             [01;31m[Kconfigure_side[m[K("front", params_.front_wheel_name, registered_front_wheel_handle_);
+[1.611s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.611s]       |             [32m[Kconfigure_imu[m[K
+[1.611s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:472:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct three_omniwheel_controller::Params[m[K’ has no member named ‘[01m[Kright_wheel_names[m[K’; did you mean ‘[01m[Kfront_wheel_name[m[K’?
+[1.611s]   472 |             configure_side("right", params_.[01;31m[Kright_wheel_names[m[K, registered_right_wheel_handles_);
+[1.611s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.611s]       |                                             [32m[Kfront_wheel_name[m[K
+[1.616s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:472:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kregistered_right_wheel_handles_[m[K’ was not declared in this scope; did you mean ‘[01m[Kregistered_front_wheel_handle_[m[K’?
+[1.616s]   472 |          configure_side("right", params_.right_wheel_names, [01;31m[Kregistered_right_wheel_handles_[m[K);
+[1.616s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.616s]       |                                                             [32m[Kregistered_front_wheel_handle_[m[K
+[1.616s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:474:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct three_omniwheel_controller::Params[m[K’ has no member named ‘[01m[Kleft_wheel_names[m[K’; did you mean ‘[01m[Kfront_wheel_name[m[K’?
+[1.616s]   474 |             configure_side("left", params_.[01;31m[Kleft_wheel_names[m[K, registered_left_wheel_handles_);
+[1.616s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.616s]       |                                            [32m[Kfront_wheel_name[m[K
+[1.621s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:474:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kregistered_left_wheel_handles_[m[K’ was not declared in this scope; did you mean ‘[01m[Kregistered_x_wheel_handle_[m[K’?
+[1.621s]   474 |            configure_side("left", params_.left_wheel_names, [01;31m[Kregistered_left_wheel_handles_[m[K);
+[1.621s]       |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.622s]       |                                                             [32m[Kregistered_x_wheel_handle_[m[K
+[1.625s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:477:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kleft_result[m[K’ was not declared in this scope
+[1.625s]   477 |             [01;31m[Kleft_result[m[K == controller_interface::CallbackReturn::ERROR ||
+[1.625s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.630s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:478:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_result[m[K’ was not declared in this scope
+[1.630s]   478 |             [01;31m[Kright_result[m[K == controller_interface::CallbackReturn::ERROR)
+[1.630s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.636s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[1.636s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:507:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kregistered_left_wheel_handles_[m[K’ was not declared in this scope; did you mean ‘[01m[Kregistered_x_wheel_handle_[m[K’?
+[1.636s]   507 |         [01;31m[Kregistered_left_wheel_handles_[m[K.clear();
+[1.636s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.636s]       |         [32m[Kregistered_x_wheel_handle_[m[K
+[1.641s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:508:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kregistered_right_wheel_handles_[m[K’ was not declared in this scope; did you mean ‘[01m[Kregistered_front_wheel_handle_[m[K’?
+[1.641s]   508 |         [01;31m[Kregistered_right_wheel_handles_[m[K.clear();
+[1.641s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.641s]       |         [32m[Kregistered_front_wheel_handle_[m[K
+[1.644s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K At global scope:
+[1.644s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:514:21:[m[K [01;31m[Kerror: [m[K‘[01m[KDriveWheelHandle[m[K’ was not declared in this scope
+[1.644s]   514 |         std::vector<[01;31m[KDriveWheelHandle[m[K> &registered_drive_wheel_handles)
+[1.644s]       |                     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[1.644s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:514:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.644s]   514 |         std::vector<DriveWheelHandle[01;31m[K>[m[K &registered_drive_wheel_handles)
+[1.644s]       |                                     [01;31m[K^[m[K
+[1.644s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:514:37:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[1.646s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::configure_drive_wheel(const string&, const std::vector<std::__cxx11::basic_string<char> >&, int&)[m[K’:
+[1.646s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:516:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_node[m[K’ was not declared in this scope
+[1.646s]   516 |         auto logger = [01;31m[Kget_node[m[K()->get_logger();
+[1.646s]       |                       [01;31m[K^~~~~~~~[m[K
+[1.649s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:518:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_names[m[K’ was not declared in this scope; did you mean ‘[01m[Kdrive_wheel_names[m[K’?
+[1.649s]   518 |         if ([01;31m[Kwheel_names[m[K.empty())
+[1.649s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.649s]       |             [32m[Kdrive_wheel_names[m[K
+[1.649s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.649s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface_base.hpp:28[m[K,
+[1.650s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface.hpp:22[m[K,
+[1.650s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:11[m[K,
+[1.650s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[1.650s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:520:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.650s]   520 |             [01;31m[KRCLCPP_ERROR[m[K(logger, "No '%s' wheel names specified", side.c_str());
+[1.650s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.650s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:520:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.650s]   520 |             [01;31m[KRCLCPP_ERROR[m[K(logger, "No '%s' wheel names specified", side.c_str());
+[1.650s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.650s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:520:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.650s]   520 |             [01;31m[KRCLCPP_ERROR[m[K(logger, "No '%s' wheel names specified", side.c_str());
+[1.650s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[1.653s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:525:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kregistered_handles[m[K’ was not declared in this scope
+[1.653s]   525 |         [01;31m[Kregistered_handles[m[K.reserve(wheel_names.size());
+[1.653s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.655s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:525:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_names[m[K’ was not declared in this scope; did you mean ‘[01m[Kdrive_wheel_names[m[K’?
+[1.655s]   525 |         registered_handles.reserve([01;31m[Kwheel_names[m[K.size());
+[1.655s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[1.655s]       |                                    [32m[Kdrive_wheel_names[m[K
+[1.658s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:528:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback_type[m[K’ was not declared in this scope
+[1.658s]   528 |             const auto interface_name = [01;31m[Kfeedback_type[m[K();
+[1.658s]       |                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[1.661s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:530:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstate_interfaces_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[1.661s]   530 |                 [01;31m[Kstate_interfaces_[m[K.cbegin(), state_interfaces_.cend(),
+[1.661s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.661s]       |                 [32m[Krcl_interfaces[m[K
+[1.661s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In lambda function:
+[1.661s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:533:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_name[m[K’ is not captured
+[1.661s]   533 |                     return interface.get_prefix_name() == [01;31m[Kwheel_name[m[K &&
+[1.662s]       |                                                           [01;31m[K^~~~~~~~~~[m[K
+[1.662s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:531:46:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[1.662s]   531 |                 [&wheel_name, &interface_name[01;36m[K][m[K(const auto &interface)
+[1.662s]       |                                              [01;36m[K^[m[K
+[1.662s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:526:26:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>wheel_name[m[K’ declared here
+[1.662s]   526 |         for (const auto &[01;36m[Kwheel_name[m[K : wheel_names)
+[1.662s]       |                          [01;36m[K^~~~~~~~~~[m[K
+[1.662s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:534:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kinterface_name[m[K’ is not captured
+[1.662s]   534 |                           interface.get_interface_name() == [01;31m[Kinterface_name[m[K;
+[1.662s]       |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.662s] 
+[1.662s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:531:46:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[1.662s]   531 |                 [&wheel_name, &interface_name[01;36m[K][m[K(const auto &interface)
+[1.662s]       |                                              [01;36m[K^[m[K
+[1.662s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:528:24:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>interface_name[m[K’ declared here
+[1.662s]   528 |             const auto [01;36m[Kinterface_name[m[K = feedback_type();
+[1.662s]       |                        [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.662s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface_base.hpp:28[m[K,
+[1.663s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface.hpp:22[m[K,
+[1.663s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:11[m[K,
+[1.663s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[1.663s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::configure_drive_wheel(const string&, const std::vector<std::__cxx11::basic_string<char> >&, int&)[m[K’:
+[1.663s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:539:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.663s]   539 |                 [01;31m[KRCLCPP_ERROR[m[K(logger, "Unable to obtain joint state handle for %s", wheel_name.c_str());
+[1.663s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.663s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:539:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.664s]   539 |                 [01;31m[KRCLCPP_ERROR[m[K(logger, "Unable to obtain joint state handle for %s", wheel_name.c_str());
+[1.664s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.664s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:539:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.664s]   539 |                 [01;31m[KRCLCPP_ERROR[m[K(logger, "Unable to obtain joint state handle for %s", wheel_name.c_str());
+[1.664s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.665s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:544:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcommand_interfaces_[m[K’ was not declared in this scope
+[1.665s]   544 |                 [01;31m[Kcommand_interfaces_[m[K.begin(), command_interfaces_.end(),
+[1.665s]       |                 [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.665s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In lambda function:
+[1.665s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:547:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kwheel_name[m[K’ is not captured
+[1.665s]   547 |                     return interface.get_prefix_name() == [01;31m[Kwheel_name[m[K &&
+[1.665s]       |                                                           [01;31m[K^~~~~~~~~~[m[K
+[1.665s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:545:29:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[1.666s]   545 |                 [&wheel_name[01;36m[K][m[K(const auto &interface)
+[1.666s]       |                             [01;36m[K^[m[K
+[1.666s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:526:26:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>wheel_name[m[K’ declared here
+[1.666s]   526 |         for (const auto &[01;36m[Kwheel_name[m[K : wheel_names)
+[1.666s]       |                          [01;36m[K^~~~~~~~~~[m[K
+[1.666s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface_base.hpp:28[m[K,
+[1.666s]                  from [01m[K/opt/ros/humble/include/controller_interface/controller_interface.hpp:22[m[K,
+[1.666s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:11[m[K,
+[1.667s]                  from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[1.667s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In function ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::configure_drive_wheel(const string&, const std::vector<std::__cxx11::basic_string<char> >&, int&)[m[K’:
+[1.667s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:553:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.667s]   553 |                 [01;31m[KRCLCPP_ERROR[m[K(logger, "Unable to obtain joint command handle for %s", wheel_name.c_str());
+[1.667s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.667s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:553:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.667s]   553 |                 [01;31m[KRCLCPP_ERROR[m[K(logger, "Unable to obtain joint command handle for %s", wheel_name.c_str());
+[1.667s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.667s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:553:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.667s]   553 |                 [01;31m[KRCLCPP_ERROR[m[K(logger, "Unable to obtain joint command handle for %s", wheel_name.c_str());
+[1.667s]       |                 [01;31m[K^~~~~~~~~~~~[m[K
+[1.668s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:558:17:[m[K [01;31m[Kerror: [m[K‘[01m[KWheelHandle[m[K’ was not declared in this scope
+[1.668s]   558 |                 [01;31m[KWheelHandle[m[K{std::ref(*state_handle), std::ref(*command_handle)});
+[1.668s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[1.668s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:513:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kdrive_wheel_names[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.668s]   513 |    const std::string &side, [01;35m[Kconst std::vector<std::string> &drive_wheel_names[m[K,
+[1.668s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[1.668s] 
+[1.668s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:514:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kregistered_drive_wheel_handles[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.668s]   514 |         [01;35m[Kstd::vector<DriveWheelHandle> &registered_drive_wheel_handles[m[K)
+[1.668s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.608s] gmake[2]: *** [CMakeFiles/three_omniwheel_controller.dir/build.make:76: CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o] Error 1
+[3.608s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/three_omniwheel_controller.dir/all] Error 2
+[3.608s] gmake: *** [Makefile:146: all] Error 2
+[3.610s] Invoked command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20

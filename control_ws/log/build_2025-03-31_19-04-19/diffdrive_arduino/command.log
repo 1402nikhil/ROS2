@@ -1,0 +1,4 @@
+Invoking command in '/home/nikhil/Work/ROS/control_ws/build/diffdrive_arduino': /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/diffdrive_arduino -- -j20 -l20
+Invoked command in '/home/nikhil/Work/ROS/control_ws/build/diffdrive_arduino' returned '0': /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/diffdrive_arduino -- -j20 -l20
+Invoking command in '/home/nikhil/Work/ROS/control_ws/build/diffdrive_arduino': /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/diffdrive_arduino
+Invoked command in '/home/nikhil/Work/ROS/control_ws/build/diffdrive_arduino' returned '0': /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/diffdrive_arduino

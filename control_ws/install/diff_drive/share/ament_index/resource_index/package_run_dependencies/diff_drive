@@ -1,1 +1,1 @@
-/home/nikhil/Work/ROS/control_ws/build/diff_drive/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/diff_drive
+hardware_interface;pluginlib;rclcpp;rclcpp_lifecycle;micro_ros_agent;ros2_controllers_test_nodes;joint_state_broadcaster;diff_drive_controller;ros2controlcli;controller_manager;rviz2;robot_state_publisher;ament_cmake_gtest

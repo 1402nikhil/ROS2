@@ -1,0 +1,17 @@
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:626:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K_name[m[K’
+  626 |         const std::string &side, const std::vector<std::string> &drive_wheel [01;31m[K_name[m[K,
+      |                                                                              [01;31m[K^~~~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:625:42:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::configure_drive_wheel(const string&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’
+  625 |     controller_interface::CallbackReturn [01;31m[KThreeOmniwheelController[m[K::configure_drive_wheel(
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:104:46:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::configure_drive_wheel(const string&, const std::vector<std::__cxx11::basic_string<char> >&, std::vector<three_omniwheel_controller::ThreeOmniwheelController::DriveWheelHandle>&)[m[K’
+  104 |         controller_interface::CallbackReturn [01;36m[Kconfigure_drive_wheel[m[K(
+      |                                              [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:30:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass three_omniwheel_controller::ThreeOmniwheelController[m[K’ defined here
+   30 |     class [01;36m[KThreeOmniwheelController[m[K : public controller_interface::ControllerInterface
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/three_omniwheel_controller.dir/build.make:76: CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/three_omniwheel_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

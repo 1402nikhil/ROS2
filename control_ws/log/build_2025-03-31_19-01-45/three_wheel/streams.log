@@ -1,0 +1,91 @@
+[0.008s] Invoking command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/nikhil/Work/ROS/control_ws/src/three_wheel -DCMAKE_INSTALL_PREFIX=/home/nikhil/Work/ROS/control_ws/install/three_wheel
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.121s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.176s] -- Detecting CXX compiler ABI info
+[0.235s] -- Detecting CXX compiler ABI info - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.239s] -- Detecting CXX compile features
+[0.239s] -- Detecting CXX compile features - done
+[0.241s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.344s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.410s] -- Found hardware_interface: 2.48.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.440s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.444s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.450s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.470s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.599s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.602s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.618s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.624s] -- Looking for pthread.h
+[0.675s] -- Looking for pthread.h - found
+[0.675s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.736s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.736s] -- Found Threads: TRUE  
+[0.765s] -- Found micro_ros_agent: 3.0.6 (/home/nikhil/Work/ROS/microRos_ws/install/micro_ros_agent/share/micro_ros_agent/cmake)
+[0.770s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[0.815s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.832s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.873s] -- Configuring done
+[0.885s] -- Generating done
+[0.887s] -- Build files have been written to: /home/nikhil/Work/ROS/control_ws/build/three_wheel
+[0.894s] Invoked command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake /home/nikhil/Work/ROS/control_ws/src/three_wheel -DCMAKE_INSTALL_PREFIX=/home/nikhil/Work/ROS/control_ws/install/three_wheel
+[0.895s] Invoking command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/three_wheel -- -j20 -l20
+[0.931s] [ 50%] [32mBuilding CXX object CMakeFiles/three_wheel.dir/hardware/threewheel_system.cpp.o[0m
+[7.338s] [100%] [32m[1mLinking CXX shared library libthree_wheel.so[0m
+[7.728s] [100%] Built target three_wheel
+[7.739s] Invoked command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/control_ws/build/three_wheel -- -j20 -l20
+[7.741s] Invoking command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/three_wheel
+[7.747s] -- Install configuration: ""
+[7.747s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/three_wheel.xml
+[7.747s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/include/three_wheel
+[7.747s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/include/three_wheel/three_wheel
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/include/three_wheel/three_wheel/dead_wheel.hpp
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/include/three_wheel/three_wheel/threewheel_system.hpp
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/include/three_wheel/three_wheel/visibility_control.h
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/include/three_wheel/three_wheel/drive_wheel.hpp
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/launch
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/ros2_control
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/ros2_control/three_wheel.ros2_control.xacro
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/urdf
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/urdf/three_wheel.urdf.xacro
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/urdf/three_wheel.materials.xacro
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/urdf/three_wheel_description.urdf.xacro
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/rviz
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/rviz/three_wheel_view.rviz
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/rviz/three_wheel.rviz
+[7.748s] -- Up-to-date: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/launch
+[7.748s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/launch/three_wheel.launch.py
+[7.749s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/config
+[7.749s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/config/joystick.yaml
+[7.749s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/config/three_wheel_controller.yaml
+[7.749s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/lib/libthree_wheel.so
+[7.752s] -- Set runtime path of "/home/nikhil/Work/ROS/control_ws/install/three_wheel/lib/libthree_wheel.so" to ""
+[7.752s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/environment/library_path.sh
+[7.752s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/environment/library_path.dsv
+[7.752s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/ament_index/resource_index/package_run_dependencies/three_wheel
+[7.752s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/ament_index/resource_index/parent_prefix_path/three_wheel
+[7.752s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/environment/ament_prefix_path.sh
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/environment/ament_prefix_path.dsv
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/environment/path.sh
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/environment/path.dsv
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/local_setup.bash
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/local_setup.sh
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/local_setup.zsh
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/local_setup.dsv
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/package.dsv
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/ament_index/resource_index/packages/three_wheel
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/three_wheel
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/cmake/export_three_wheelExport.cmake
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/cmake/export_three_wheelExport-noconfig.cmake
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/cmake/ament_cmake_export_targets-extras.cmake
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/cmake/three_wheelConfig.cmake
+[7.753s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/cmake/three_wheelConfig-version.cmake
+[7.754s] -- Installing: /home/nikhil/Work/ROS/control_ws/install/three_wheel/share/three_wheel/package.xml
+[7.755s] Invoked command in '/home/nikhil/Work/ROS/control_ws/build/three_wheel' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/control_ws/build/three_wheel

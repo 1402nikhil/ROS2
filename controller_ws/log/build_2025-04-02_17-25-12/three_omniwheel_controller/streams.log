@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20
+[0.048s] [ 33%] Built target three_omniwheel_controller_parameters
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target three_omniwheel_controller[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o[0m
+[1.480s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type three_omniwheel_controller::ThreeOmniwheelController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.481s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:150:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktheta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.481s]   150 |         double [01;35m[Ktheta[m[K = atan2(command.twist.linear.y, command.twist.linear.x);
+[1.481s]       |                [01;35m[K^~~~~[m[K
+[7.244s] [ 66%] [32m[1mLinking CXX shared library libthree_omniwheel_controller.so[0m
+[7.715s] [100%] Built target three_omniwheel_controller
+[7.725s] Invoked command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20
+[7.727s] Invoking command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller
+[7.731s] -- Install configuration: ""
+[7.731s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/include/three_omniwheel_controller
+[7.731s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp
+[7.731s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/three_omniwheel_plugin.xml
+[7.731s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/include/three_omniwheel_controller
+[7.731s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller
+[7.731s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller/three_omniwheel_controller.hpp
+[7.731s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller/odometry.hpp
+[7.731s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller/speed_limiter.hpp
+[7.731s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller/visibility_control.h
+[7.731s] -- Installing: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/lib/libthree_omniwheel_controller.so
+[7.740s] -- Set runtime path of "/home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/lib/libthree_omniwheel_controller.so" to ""
+[7.740s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/environment/library_path.sh
+[7.740s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/environment/library_path.dsv
+[7.740s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/ament_index/resource_index/package_run_dependencies/three_omniwheel_controller
+[7.740s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/ament_index/resource_index/parent_prefix_path/three_omniwheel_controller
+[7.740s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/environment/ament_prefix_path.sh
+[7.740s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/environment/ament_prefix_path.dsv
+[7.740s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/environment/path.sh
+[7.740s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/environment/path.dsv
+[7.740s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/local_setup.bash
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/local_setup.sh
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/local_setup.zsh
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/local_setup.dsv
+[7.741s] -- Installing: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/package.dsv
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/ament_index/resource_index/packages/three_omniwheel_controller
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/three_omniwheel_controller
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/cmake/export_three_omniwheel_controllerExport.cmake
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/cmake/export_three_omniwheel_controllerExport-noconfig.cmake
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/cmake/ament_cmake_export_targets-extras.cmake
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/cmake/three_omniwheel_controllerConfig.cmake
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/cmake/three_omniwheel_controllerConfig-version.cmake
+[7.741s] -- Up-to-date: /home/nikhil/Work/ROS/controller_ws/install/three_omniwheel_controller/share/three_omniwheel_controller/package.xml
+[7.742s] Invoked command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller

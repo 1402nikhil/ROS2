@@ -26,6 +26,7 @@ _colcon_prefix_chain_powershell_source_script "/opt/ros/humble\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nikhil/Work/ROS/ros2_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nikhil/Work/ROS/ros2_ws_1/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nikhil/Work/ROS/turtlebot3_ws/install\local_setup.ps1"
+_colcon_prefix_chain_powershell_source_script "/home/nikhil/Work/ROS/controller_ws/install\local_setup.ps1"
 _colcon_prefix_chain_powershell_source_script "/home/nikhil/Work/ROS/microRos_ws/install\local_setup.ps1"
 
 # source this prefix

@@ -1,1 +1,3 @@
-/home/nikhil/Work/ROS/control_ws/build/diff_drive/ament_cmake_environment_hooks/local_setup.dsv
+source;share/diff_drive/environment/ament_prefix_path.sh
+source;share/diff_drive/environment/library_path.sh
+source;share/diff_drive/environment/path.sh

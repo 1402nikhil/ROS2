@@ -1,5 +1,0 @@
-In file included from [01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/diffdrive_system.cpp:1[m[K:
-[01m[K/home/nikhil/Work/ROS/control_ws/src/diff_drive/hardware/include/diff_drive/diffdrive_system.hpp:40:61:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
-   40 |             RCLCPP_SHARED_PTR_DEFINITIONS(DiffDriveHardware)[01;35m[K;[m[K
-      |                                                             [01;35m[K^[m[K
-      |                                                             [31m[K-[m[K

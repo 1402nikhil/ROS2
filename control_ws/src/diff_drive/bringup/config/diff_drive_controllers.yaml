@@ -1,7 +1,8 @@
 controller_manager:
   ros__parameters:
-    update_rate: 10  # Hz
+    update_rate: 10  # coltroller updates every 0.1 secs, how frequest data is processed and commands are sent
 
+    #controllers
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
@@ -21,7 +22,7 @@ diff_drive_base_controller:
     left_wheel_radius_multiplier: 1.0
     right_wheel_radius_multiplier: 1.0
 
-    publish_rate: 200.0
+    publish_rate: 200.0        #how frequent controller publishes msg(/odmo, /joint_states, etc)
     odom_frame_id: odom
     base_frame_id: base_link
     pose_covariance_diagonal : [0.001, 0.001, 0.001, 0.001, 0.001, 0.01]
@@ -30,7 +31,7 @@ diff_drive_base_controller:
     open_loop: true
     enable_odom_tf: true
 
-    cmd_vel_timeout: 0.5
+    cmd_vel_timeout: 0.1      # timeout of vel = 0, when no data is received
     #publish_limited_velocity: true
     use_stamped_vel: false
     #velocity_rolling_window_size: 10

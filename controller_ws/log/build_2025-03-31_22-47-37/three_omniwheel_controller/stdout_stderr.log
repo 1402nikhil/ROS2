@@ -1,0 +1,866 @@
+[ 16%] [34m[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller_parameters.hpp /home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller_parameter.yaml `[0m
+[ 33%] [34m[1mCreating deprecated header file /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller/include/three_omniwheel_controller_parameters.hpp[0m
+[ 33%] Built target three_omniwheel_controller_parameters
+[35m[1mConsolidate compiler generated dependencies of target three_omniwheel_controller[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o[0m
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::InterfaceConfiguration three_omniwheel_controller::ThreeOmniwheelController::command_interface_configuration() const[m[K’:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:55:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ and ‘[01m[Kconst char [2][m[K’)
+   64 |         conf_names.push_back([32m[Kparams_.front_wheel_name[m[K [01;31m[K+[m[K [34m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                              [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~[m[K
+      |                                      [32m[K|[m[K                  [34m[K|[m[K
+      |                                      [32m[K|[m[K                  [34m[Kconst char [2][m[K
+      |                                      [32m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+ 1276 |     [01;36m[Koperator[m[K+(typename __normal_iterator<_Iterator, _Container>::difference_type
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+  585 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+ 1700 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+ 6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+ 6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+ 6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:64:57:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   64 |         conf_names.push_back(params_.front_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                         [01;36m[K^~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:60:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ and ‘[01m[Kconst char [2][m[K’)
+   66 |         conf_names.push_back([32m[Kparams_.back_right_wheel_name[m[K [01;31m[K+[m[K [34m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                              [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~[m[K
+      |                                      [32m[K|[m[K                       [34m[K|[m[K
+      |                                      [32m[K|[m[K                       [34m[Kconst char [2][m[K
+      |                                      [32m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+ 1276 |     [01;36m[Koperator[m[K+(typename __normal_iterator<_Iterator, _Container>::difference_type
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+  585 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+ 1700 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+ 6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+ 6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+ 6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:66:62:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   66 |         conf_names.push_back(params_.back_right_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                              [01;36m[K^~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:59:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ and ‘[01m[Kconst char [2][m[K’)
+   68 |         conf_names.push_back([32m[Kparams_.back_left_wheel_name[m[K [01;31m[K+[m[K [34m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                              [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~[m[K
+      |                                      [32m[K|[m[K                      [34m[K|[m[K
+      |                                      [32m[K|[m[K                      [34m[Kconst char [2][m[K
+      |                                      [32m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+ 1276 |     [01;36m[Koperator[m[K+(typename __normal_iterator<_Iterator, _Container>::difference_type
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+  585 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+ 1700 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+ 6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+ 6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+ 6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:68:61:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   68 |         conf_names.push_back(params_.back_left_wheel_name + [01;36m[K"/"[m[K + std::string(HW_IF_VELOCITY));
+      |                                                             [01;36m[K^~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::InterfaceConfiguration three_omniwheel_controller::ThreeOmniwheelController::state_interface_configuration() const[m[K’:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:56:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ and ‘[01m[Kconst char [2][m[K’)
+   89 |         conf_names.push_back([32m[Kparams_.x_dead_wheel_name[m[K [01;31m[K+[m[K [34m[K"/"[m[K + std::string(feedback_type()));
+      |                              [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~[m[K
+      |                                      [32m[K|[m[K                   [34m[K|[m[K
+      |                                      [32m[K|[m[K                   [34m[Kconst char [2][m[K
+      |                                      [32m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+ 1276 |     [01;36m[Koperator[m[K+(typename __normal_iterator<_Iterator, _Container>::difference_type
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+  585 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+ 1700 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+ 6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+ 6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+ 6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:89:58:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   89 |         conf_names.push_back(params_.x_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:56:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ and ‘[01m[Kconst char [2][m[K’)
+   91 |         conf_names.push_back([32m[Kparams_.y_dead_wheel_name[m[K [01;31m[K+[m[K [34m[K"/"[m[K + std::string(feedback_type()));
+      |                              [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~[m[K
+      |                                      [32m[K|[m[K                   [34m[K|[m[K
+      |                                      [32m[K|[m[K                   [34m[Kconst char [2][m[K
+      |                                      [32m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::operator+(typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+ 1276 |     [01;36m[Koperator[m[K+(typename __normal_iterator<_Iterator, _Container>::difference_type
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1276:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+  585 |     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:585:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/11/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/11/cmath:1935[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:5[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+ 1700 |     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_iterator.h:1700:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6095 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1169 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1169:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:56[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 1189 |     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.tcc:1189:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6132 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6132:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+ 6148 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6148:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6160 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6160:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6166 |     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6172 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6194 |     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6194:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+ 6200 |     [01;36m[Koperator[m[K+(_CharT __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6200:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst char [2][m[K’
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+ 6206 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6206:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:8[m[K,
+                 from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+ 6212 |     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/basic_string.h:6212:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:91:58:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst std::vector<std::__cxx11::basic_string<char> >[m[K’ have incompatible cv-qualifiers
+   91 |         conf_names.push_back(params_.y_dead_wheel_name + [01;36m[K"/"[m[K + std::string(feedback_type()));
+      |                                                          [01;36m[K^~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:467:52:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  467 |             configure_drive_wheel("front", [01;31m[Kparams_.front_wheel_name[m[K, registered_front_wheel_handle_);
+      |                                            [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+      |                                                    [01;31m[K|[m[K
+      |                                                    [01;31m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:105:57:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::configure_drive_wheel(const string&, const string&, std::vector<three_omniwheel_controller::ThreeOmniwheelController::DriveWheelHandle>&)[m[K’
+  105 |             const std::string &side, [01;36m[Kconst std::string &drive_wheel_name[m[K,
+      |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:469:52:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  469 |             configure_drive_wheel("right", [01;31m[Kparams_.back_right_wheel_name[m[K, registered_back_right_wheel_handle_);
+      |                                            [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                    [01;31m[K|[m[K
+      |                                                    [01;31m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:105:57:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::configure_drive_wheel(const string&, const string&, std::vector<three_omniwheel_controller::ThreeOmniwheelController::DriveWheelHandle>&)[m[K’
+  105 |             const std::string &side, [01;36m[Kconst std::string &drive_wheel_name[m[K,
+      |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:471:51:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  471 |             configure_drive_wheel("left", [01;31m[Kparams_.back_left_wheel_name[m[K, registered_back_left_wheel_handle_);
+      |                                           [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                   [01;31m[K|[m[K
+      |                                                   [01;31m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:105:57:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::configure_drive_wheel(const string&, const string&, std::vector<three_omniwheel_controller::ThreeOmniwheelController::DriveWheelHandle>&)[m[K’
+  105 |             const std::string &side, [01;36m[Kconst std::string &drive_wheel_name[m[K,
+      |                                      [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:473:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  473 |             configure_dead_wheel("x_wheel", [01;31m[Kparams_.x_dead_wheel_name[m[K, registered_x_wheel_handle_);
+      |                                             [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+      |                                                     [01;31m[K|[m[K
+      |                                                     [01;31m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:81:58:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::configure_dead_wheel(const string&, const string&, std::vector<three_omniwheel_controller::ThreeOmniwheelController::DeadWheelHandle>&)[m[K’
+   81 |             const std::string &which, [01;36m[Kconst std::string &dead_wheel_name[m[K,
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:475:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’ to ‘[01m[Kconst string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  475 |             configure_dead_wheel("y_wheel", [01;31m[Kparams_.y_dead_wheel_name[m[K, registered_y_wheel_handle_);
+      |                                             [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+      |                                                     [01;31m[K|[m[K
+      |                                                     [01;31m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K
+In file included from [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:5[m[K:
+[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/three_omniwheel_controller/three_omniwheel_controller.hpp:81:58:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::configure_dead_wheel(const string&, const string&, std::vector<three_omniwheel_controller::ThreeOmniwheelController::DeadWheelHandle>&)[m[K’
+   81 |             const std::string &which, [01;36m[Kconst std::string &dead_wheel_name[m[K,
+      |                                       [01;36m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/three_omniwheel_controller.dir/build.make:76: CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/three_omniwheel_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

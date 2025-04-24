@@ -24,7 +24,7 @@
 
 namespace diff_drive
 {
-    class DiffDriveHardware: public hardware_interface::SystemInterface
+    class DiffDriveHardware : public hardware_interface::SystemInterface
     {
         struct Config
         {
@@ -38,63 +38,61 @@ namespace diff_drive
             float pid_o = 0;
         };
 
-        public:
-            RCLCPP_SHARED_PTR_DEFINITIONS(DiffDriveHardware)
+    public:
+        RCLCPP_SHARED_PTR_DEFINITIONS(DiffDriveHardware)
 
-            DIFF_DRIVE_PUBLIC
-            hardware_interface::CallbackReturn on_init(
-                const hardware_interface::HardwareInfo & info) override;
+        DIFF_DRIVE_PUBLIC
+        hardware_interface::CallbackReturn on_init(
+            const hardware_interface::HardwareInfo &info) override;
 
-            DIFF_DRIVE_PUBLIC
-            std::vector<hardware_interface::StateInterface> export_state_interfaces() override;
+        DIFF_DRIVE_PUBLIC
+        std::vector<hardware_interface::StateInterface> export_state_interfaces() override;
 
-            DIFF_DRIVE_PUBLIC
-            std::vector<hardware_interface::CommandInterface> export_command_interfaces() override;
+        DIFF_DRIVE_PUBLIC
+        std::vector<hardware_interface::CommandInterface> export_command_interfaces() override;
 
-            DIFF_DRIVE_PUBLIC
-            hardware_interface::CallbackReturn on_configure(
-                const rclcpp_lifecycle::State & previous_state) override;
+        DIFF_DRIVE_PUBLIC
+        hardware_interface::CallbackReturn on_configure(
+            const rclcpp_lifecycle::State &previous_state) override;
 
-            DIFF_DRIVE_PUBLIC
-            hardware_interface::CallbackReturn on_cleanup(
-                const rclcpp_lifecycle::State & previous_state) override;
+        DIFF_DRIVE_PUBLIC
+        hardware_interface::CallbackReturn on_cleanup(
+            const rclcpp_lifecycle::State &previous_state) override;
 
-            DIFF_DRIVE_PUBLIC
-            hardware_interface::CallbackReturn on_activate(
-                const rclcpp_lifecycle::State & previous_state) override;
+        DIFF_DRIVE_PUBLIC
+        hardware_interface::CallbackReturn on_activate(
+            const rclcpp_lifecycle::State &previous_state) override;
 
-            DIFF_DRIVE_PUBLIC
-            hardware_interface::CallbackReturn on_deactivate(
-                const rclcpp_lifecycle::State & previous_state) override;
-            
-            DIFF_DRIVE_PUBLIC
-            hardware_interface::return_type read(
-                const rclcpp::Time & time, const rclcpp::Duration & period) override;
-            
-            DIFF_DRIVE_PUBLIC
-            hardware_interface::return_type write(
-                const rclcpp::Time & time, const rclcpp::Duration & period) override;
-        
-        private:
-            Config cfg_;
-            Wheel wheel_l_;
-            Wheel wheel_r_;
+        DIFF_DRIVE_PUBLIC
+        hardware_interface::CallbackReturn on_deactivate(
+            const rclcpp_lifecycle::State &previous_state) override;
 
-            rclcpp::Node::SharedPtr hardware_node_;
+        DIFF_DRIVE_PUBLIC
+        hardware_interface::return_type read(
+            const rclcpp::Time &time, const rclcpp::Duration &period) override;
 
-            rclcpp::Subscription<std_msgs::msg::Float32MultiArray>::SharedPtr encoder_readings_sub_; //convert it to a custom msg for encoder data
-            rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr check_sub_;
-            rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr wheel_vel_pub_;
-            rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr pid_values_pub_;
+        DIFF_DRIVE_PUBLIC
+        hardware_interface::return_type write(
+            const rclcpp::Time &time, const rclcpp::Duration &period) override;
 
-            std_msgs::msg::Float32MultiArray::SharedPtr encoder_readings_;
-            std::thread spin_thread_;  // Thread for spinning the ROS node
-            std::atomic<bool> stop_spin_thread_{false};  // Flag to stop spinning safely
-            bool micro_ros_active_ = false;
-            bool check_msg_ = false;
+    private:
+        Config cfg_;
+        Wheel wheel_l_;
+        Wheel wheel_r_;
 
-                
+        rclcpp::Node::SharedPtr hardware_node_;
+
+        rclcpp::Subscription<std_msgs::msg::Float32MultiArray>::SharedPtr encoder_readings_sub_; // convert it to a custom msg for encoder data
+        rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr check_sub_;
+        rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr wheel_vel_pub_;
+        rclcpp::Publisher<std_msgs::msg::Float32MultiArray>::SharedPtr pid_values_pub_;
+
+        std_msgs::msg::Float32MultiArray::SharedPtr encoder_readings_;
+        std::thread spin_thread_;                   // Thread for spinning the ROS node
+        std::atomic<bool> stop_spin_thread_{false}; // Flag to stop spinning safely
+        bool micro_ros_active_ = false;
+        bool check_msg_ = false;
     };
-}  //namespace diff_drive
+} // namespace diff_drive
 
 #endif

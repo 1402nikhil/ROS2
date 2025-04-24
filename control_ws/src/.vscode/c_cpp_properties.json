@@ -6,6 +6,8 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
+        "/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/include/**",
+        "/home/nikhil/Work/ROS/control_ws/src/three_wheel/hardware/include/**",
         "/home/nikhil/Work/ROS/control_ws/install/ros2_control_demo_example_2/include/**",
         "/home/nikhil/Work/ROS/microRos_ws/install/micro_ros_agent/include/**",
         "/home/nikhil/Work/ROS/microRos_ws/install/micro_ros_msgs/include/**",

@@ -1,0 +1,13 @@
+[0.008s] Invoking command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20
+[0.046s] [ 33%] Built target three_omniwheel_controller_parameters
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o[0m
+[1.568s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kcontroller_interface::CallbackReturn three_omniwheel_controller::ThreeOmniwheelController::configure_drive_wheel(const string&, const std::vector<std::__cxx11::basic_string<char> >&, std::vector<three_omniwheel_controller::ThreeOmniwheelController::DriveWheelHandle>&)[m[K’:
+[1.568s] [01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:683:42:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[Kstd::ref<hardware_interface::LoanedCommandInterface>((* & command_handle.__gnu_cxx::__normal_iterator<hardware_interface::LoanedCommandInterface*, std::vector<hardware_interface::LoanedCommandInterface> >::operator*()))[m[K’ from ‘[01m[Kreference_wrapper<[01;32m[Khardware_interface::LoanedCommandInterface[m[K>[m[K’ to ‘[01m[Kreference_wrapper<[01;32m[Kconst hardware_interface::LoanedStateInterface[m[K>[m[K’
+[1.568s]   683 |                 DriveWheelHandle{[01;31m[Kstd::ref(*command_handle)[m[K});
+[1.569s]       |                                  [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[1.569s]       |                                          [01;31m[K|[m[K
+[1.569s]       |                                          [01;31m[Kreference_wrapper<hardware_interface::LoanedCommandInterface>[m[K
+[3.543s] gmake[2]: *** [CMakeFiles/three_omniwheel_controller.dir/build.make:76: CMakeFiles/three_omniwheel_controller.dir/src/three_omniwheel_controller.cpp.o] Error 1
+[3.543s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/three_omniwheel_controller.dir/all] Error 2
+[3.543s] gmake: *** [Makefile:146: all] Error 2
+[3.545s] Invoked command in '/home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nikhil/Work/ROS/ros2_ws/install/py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/nikhil/Work/ROS/controller_ws/build/three_omniwheel_controller -- -j20 -l20
