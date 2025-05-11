@@ -1,9 +1,0 @@
-[31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
-  Given plugin description file
-  '/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller//home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/three_omniwheel_plugin.xml'
-  does not exist
-Call Stack (most recent call first):
-  CMakeLists.txt:50 (pluginlib_export_plugin_description_file)
-
-[0m
-gmake: *** [Makefile:335: cmake_check_build_system] Error 1

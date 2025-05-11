@@ -1,4 +1,0 @@
-source;share/mera_robot_bringup/local_setup.bash
-source;share/mera_robot_bringup/local_setup.dsv
-source;share/mera_robot_bringup/local_setup.sh
-source;share/mera_robot_bringup/local_setup.zsh

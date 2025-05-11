@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:50 (file):
-  file INSTALL cannot find
-  "/home/nikhil/Work/ROS/controller_ws/src/diff_drive_controller/diff_drive_plugin.xml":
-  No such file or directory.
-
-[0m

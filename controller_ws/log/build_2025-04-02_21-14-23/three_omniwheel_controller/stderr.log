@@ -1,7 +1,0 @@
-[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type three_omniwheel_controller::ThreeOmniwheelController::update(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
-[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:251:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klast_command[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-  251 |         auto &[01;35m[Klast_command[m[K = previous_commands_.back().twist;
-      |               [01;35m[K^~~~~~~~~~~~[m[K
-[01m[K/home/nikhil/Work/ROS/controller_ws/src/three_omniwheel_controller/src/three_omniwheel_controller.cpp:252:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksecond_to_last_command[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
-  252 |         auto &[01;35m[Ksecond_to_last_command[m[K = previous_commands_.front().twist;
-      |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~[m[K

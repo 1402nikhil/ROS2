@@ -1,3 +1,0 @@
-[console_scripts]
-my_node = py_pkg.first_node:main
-
