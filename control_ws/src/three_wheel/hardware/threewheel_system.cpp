@@ -388,7 +388,7 @@ namespace three_wheel
 
         // double left_wheel_vel = wheel_l_.cmd / wheel_l_.rads_per_count;
         // double right_wheel_vel = wheel_r_.cmd / wheel_r_.rads_per_count;
-        float front_wheel_vel = wheel_f_.cmd;
+        float front_wheel_vel = wheel_f_.cmd;   
         float back_right_wheel_vel = wheel_b_r_.cmd;
         float back_left_wheel_vel = wheel_b_l_.cmd;
 
