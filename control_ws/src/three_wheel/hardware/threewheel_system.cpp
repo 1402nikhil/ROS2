@@ -81,6 +81,37 @@ namespace three_wheel
                     RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"),
                                 "is drive wheel true");
                 }
+                if (joint.state_interfaces.size() != 2)
+                {
+                    RCLCPP_FATAL(
+                        rclcpp::get_logger("ThreeWheelHardware"),
+                        "Drive Wheel Joint '%s' must have 2 state interfaces (position, velocity). Found %zu.",
+                        joint.name.c_str(), joint.state_interfaces.size());
+                    return hardware_interface::CallbackReturn::ERROR;
+                }
+
+                if (joint.state_interfaces[0].name != hardware_interface::HW_IF_POSITION)
+                {
+                    RCLCPP_FATAL(
+                        rclcpp::get_logger("ThreeWheelHardware"),
+                        "Drive Wheel Joint '%s' must have position as the first state interface.",
+                        joint.name.c_str());
+                    return hardware_interface::CallbackReturn::ERROR;
+                }
+
+                if (joint.state_interfaces[1].name != hardware_interface::HW_IF_VELOCITY)
+                {
+                    RCLCPP_FATAL(
+                        rclcpp::get_logger("ThreeWheelHardware"),
+                        "Drive Wheel Joint '%s' must have velocity as the second state interface.",
+                        joint.name.c_str());
+                    return hardware_interface::CallbackReturn::ERROR;
+                }
+                if (joint.state_interfaces.size() == 2)
+                {
+                    RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"),
+                                "is Drive wheel true");
+                }
             }
 
             // Dead wheels (encoders) should have position + velocity feedback
@@ -130,6 +161,7 @@ namespace three_wheel
     {
         std::vector<hardware_interface::StateInterface> state_interfaces;
 
+        //state interface of dead wheel
         state_interfaces.emplace_back(hardware_interface::StateInterface(
             wheel_x_.name, hardware_interface::HW_IF_POSITION, &wheel_x_.pos));
         state_interfaces.emplace_back(hardware_interface::StateInterface(
@@ -140,6 +172,7 @@ namespace three_wheel
         state_interfaces.emplace_back(hardware_interface::StateInterface(
             wheel_y_.name, hardware_interface::HW_IF_VELOCITY, &wheel_y_.vel));
 
+        //state interface of drive wheel
         state_interfaces.emplace_back(hardware_interface::StateInterface(
             wheel_f_.name, hardware_interface::HW_IF_POSITION, &wheel_f_.pos));
         state_interfaces.emplace_back(hardware_interface::StateInterface(
@@ -161,7 +194,8 @@ namespace three_wheel
     std::vector<hardware_interface::CommandInterface> ThreeWheelHardware::export_command_interfaces()
     {
         std::vector<hardware_interface::CommandInterface> command_interfaces;
-
+        
+        //command interface of drive wheel
         command_interfaces.emplace_back(hardware_interface::CommandInterface(
             wheel_f_.name, hardware_interface::HW_IF_VELOCITY, &wheel_f_.cmd));
 
@@ -208,13 +242,22 @@ namespace three_wheel
         // Give some time for checking the status
         rclcpp::sleep_for(std::chrono::seconds(2));
 
+        // if (check_msg_)
+        // {
+        //     RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"), "Micro-ROS node is active.");
+        // }
+        // else
+        // {
+        //     RCLCPP_WARN(rclcpp::get_logger("ThreeWheelHardware"), "Micro-ROS node not responding.");
+        // }
+        // while(!check_msg_){
+        //     RCLCPP_WARN(rclcpp::get_logger("ThreeWheelHardware"), "Micro-ROS node not responding.");
+        //     rclcpp::sleep_for(std::chrono::seconds(2));
+        // }
+
         if (check_msg_)
         {
             RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"), "Micro-ROS node is active.");
-        }
-        else
-        {
-            RCLCPP_WARN(rclcpp::get_logger("ThreeWheelHardware"), "Micro-ROS node not responding.");
         }
 
         RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"), "Successfully configured!");
@@ -258,7 +301,12 @@ namespace three_wheel
         //     return hardware_interface::CallbackReturn::ERROR;
         // }
 
-        RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"), "Micro-ROS node is active.");
+        // while (!check_msg_) {
+        //     RCLCPP_ERROR(rclcpp::get_logger("ThreeWheelHardware"), "on_activate: Micro-ROS node not responding.");
+        //     rclcpp::sleep_for(std::chrono::seconds(2));
+        // }
+
+        // RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"), "Micro-ROS node is active.");
 
         // Send PID values if configured
         if (dead_cfg_.pid_p > 0)
@@ -349,7 +397,7 @@ namespace three_wheel
 
         wheel_vel_pub_->publish(std::move(wheel_vel_));
 
-        // RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"), "%f , %f, %f", left_wheel_vel, wheel_l_.cmd, wheel_l_.rads_per_count);
+        RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"), "%f , %f, %f", front_wheel_vel, back_right_wheel_vel, back_left_wheel_vel);
 
         return hardware_interface::return_type::OK;
     }

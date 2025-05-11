@@ -91,7 +91,7 @@ namespace three_wheel
         DeadWheel wheel_x_;
         DeadWheel wheel_y_;
 
-        rclcpp::Node::SharedPtr hardware_node_;
+        rclcpp::Node::SharedPtr hardware_node_;  //node that communicates with the micrcontroller
 
         rclcpp::Subscription<std_msgs::msg::Float32MultiArray>::SharedPtr encoder_readings_sub_; // convert it to a custom msg for encoder data
         rclcpp::Subscription<std_msgs::msg::Bool>::SharedPtr check_sub_;

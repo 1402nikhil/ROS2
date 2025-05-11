@@ -146,7 +146,7 @@ namespace three_omniwheel_controller
         // double ang_z = command.twist.angular.z - 1.0;
         // double ang_x = - command.twist.angular.x + 1.0;
 
-        double angular_value = (command.twist.angular.z - command.twist.angular.x) / 2.0;
+        double angular_value = -(command.twist.angular.z - command.twist.angular.x) / 2.0;
         // float angular_value = 0.0;
         // double dummy = 0.0;
         
@@ -168,7 +168,7 @@ namespace three_omniwheel_controller
 
         if (params_.open_loop)
         {
-            odometry_.updateOpenLoop(linear_command, angular_command, time);
+            odometry_.updateOpenLoop(linear_command, linear_command_x_, linear_command_y_, angular_command, time);
         }
         else
         {
@@ -233,7 +233,8 @@ namespace three_omniwheel_controller
                 odometry_message.pose.pose.orientation.y = orientation.y();
                 odometry_message.pose.pose.orientation.z = orientation.z();
                 odometry_message.pose.pose.orientation.w = orientation.w();
-                odometry_message.twist.twist.linear.x = odometry_.getLinear();
+                odometry_message.twist.twist.linear.x = odometry_.getLinearX();
+                odometry_message.twist.twist.linear.y = odometry_.getLinearY();
                 odometry_message.twist.twist.angular.z = odometry_.getAngular();
                 realtime_odometry_publisher_->unlockAndPublish();
             }
@@ -280,7 +281,8 @@ namespace three_omniwheel_controller
 
         angular_command = angular_value;
         // double &angular_command = command.twist.angular.x;
-        double theta = atan2(linear_command_y_, linear_command_y_);
+        double theta = atan2(linear_command_y_, linear_command_x_);
+        // double theta = atan2(10,10);
 
         // Compute wheels velocities:
         const double vx = linear_command_x_;
@@ -293,9 +295,14 @@ namespace three_omniwheel_controller
         const double back_right_velocity = -vx - 0.577 * vy + angular_command * params_.drive_wheel_radius;
         const double back_left_velocity = -vx + 0.577 * vy + angular_command * params_.drive_wheel_radius;
 
-        RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController"),
-                    "Wheel Velocities -> Front: %.2f, Back Right: %.2f, Back Left: %.2f, Angular cmd: %.2f , %.2f , %.2f , %.4f ",
-                    front_velocity, back_right_velocity, back_left_velocity, angular_command, angular_command_z_, angular_command_x_, theta);
+
+        // const double front_velocity = 0;
+        // const double back_right_velocity = 0;
+        // const double back_left_velocity = 0;
+
+        // RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelControllerrr"),
+        //             "Wheel Velocities -> Front: %.2f, Back Right: %.2f, Back Left: %.2f, Angular cmd: %.2f , %.2f , %.2f , %.4f ",
+        //             front_velocity, back_right_velocity, back_left_velocity, angular_command, linear_command_x_, linear_command_y_, theta);
 
         // Set wheels velocities:
         registered_front_wheel_handle_[0].velocity.get().set_value(front_velocity);
