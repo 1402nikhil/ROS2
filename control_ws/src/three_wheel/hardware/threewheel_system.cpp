@@ -388,7 +388,7 @@ namespace three_wheel
 
         // double left_wheel_vel = wheel_l_.cmd / wheel_l_.rads_per_count;
         // double right_wheel_vel = wheel_r_.cmd / wheel_r_.rads_per_count;
-        float front_wheel_vel = wheel_f_.cmd;   
+        float front_wheel_vel = wheel_f_.cmd;
         float back_right_wheel_vel = wheel_b_r_.cmd;
         float back_left_wheel_vel = wheel_b_l_.cmd;
 
@@ -397,7 +397,7 @@ namespace three_wheel
 
         wheel_vel_pub_->publish(std::move(wheel_vel_));
 
-        RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"), "%f , %f, %f", front_wheel_vel, back_right_wheel_vel, back_left_wheel_vel);
+        // RCLCPP_INFO(rclcpp::get_logger("ThreeWheelHardware"), "%f , %f, %f", front_wheel_vel, back_right_wheel_vel, back_left_wheel_vel);
 
         return hardware_interface::return_type::OK;
     }

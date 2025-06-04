@@ -164,7 +164,7 @@ namespace three_omniwheel_controller
         const double x_dead_wheel_radius = params_.x_wheel_radius_multiplier * params_.dead_wheel_radius;
         const double y_dead_wheel_radius = params_.y_wheel_radius_multiplier * params_.dead_wheel_radius;
 
-        RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," before uponloop %.2f", angular_command);
+        // RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," before uponloop %.2f", angular_command);
 
         if (params_.open_loop)
         {
@@ -253,7 +253,7 @@ namespace three_omniwheel_controller
             }
         }
 
-  RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," before limit %.2f", angular_command);
+//   RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," before limit %.2f", angular_command);
 
         auto &last_command = previous_commands_.back().twist;
         auto &second_to_last_command = previous_commands_.front().twist;
@@ -263,7 +263,7 @@ namespace three_omniwheel_controller
         limiter_angular_x_.limit(angular_command_x_, last_command.angular.x, second_to_last_command.angular.x, period.seconds());
 
 
-  RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," last %.2f", angular_command);
+//   RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," last %.2f", angular_command);
 
         previous_commands_.pop();
         previous_commands_.emplace(command);
@@ -291,18 +291,22 @@ namespace three_omniwheel_controller
         // const double vx = command.twist.linear.x;
         // const double vy = command.twist.linear.y;
 
+        // const double front_velocity = vx + angular_command * params_.drive_wheel_radius;
+        // const double back_right_velocity = -vx - 0.577 * vy + angular_command * params_.drive_wheel_radius;
+        // const double back_left_velocity = -vx + 0.577 * vy + angular_command * params_.drive_wheel_radius;
+
         const double front_velocity = vx + angular_command * params_.drive_wheel_radius;
-        const double back_right_velocity = -vx - 0.577 * vy + angular_command * params_.drive_wheel_radius;
-        const double back_left_velocity = -vx + 0.577 * vy + angular_command * params_.drive_wheel_radius;
+        const double back_right_velocity = -0.5 * vx - 0.866 * vy + angular_command * params_.drive_wheel_radius;     //rt3/2 = 0.866
+        const double back_left_velocity = -0.5 * vx + 0.866 * vy + angular_command * params_.drive_wheel_radius;
 
 
         // const double front_velocity = 0;
         // const double back_right_velocity = 0;
         // const double back_left_velocity = 0;
 
-        // RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelControllerrr"),
-        //             "Wheel Velocities -> Front: %.2f, Back Right: %.2f, Back Left: %.2f, Angular cmd: %.2f , %.2f , %.2f , %.4f ",
-        //             front_velocity, back_right_velocity, back_left_velocity, angular_command, linear_command_x_, linear_command_y_, theta);
+        RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelControllerrr"),
+                    "Wheel Velocities -> Front: %.2f, Back Right: %.2f, Back Left: %.2f, Angular cmd: %.2f , angular value: %2f, %.2f , %.2f , %.4f ",
+                    front_velocity, back_right_velocity, back_left_velocity, angular_command, angular_value, angular_command_z_, angular_command_x_, theta);
 
         // Set wheels velocities:
         registered_front_wheel_handle_[0].velocity.get().set_value(front_velocity);
@@ -638,7 +642,7 @@ namespace three_omniwheel_controller
 
         if (dead_wheel_name.empty())
         {
-            RCLCPP_ERROR(rclcpp::get_logger("ThreeOmniwheelController"), "No '%s' dead wheel name specified", which.c_str());
+            // RCLCPP_ERROR(rclcpp::get_logger("ThreeOmniwheelController"), "No '%s' dead wheel name specified", which.c_str());
             return controller_interface::CallbackReturn::ERROR;
         }
 

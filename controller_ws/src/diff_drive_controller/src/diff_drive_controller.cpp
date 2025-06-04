@@ -143,7 +143,7 @@ controller_interface::return_type DiffDriveController::update(
   const double left_wheel_radius = params_.left_wheel_radius_multiplier * params_.wheel_radius;
   const double right_wheel_radius = params_.right_wheel_radius_multiplier * params_.wheel_radius;
 
-  RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," before updateonloop %.2f", linear_command);
+  // RCLCPP_INFO(rclcpp::get_logger("DiffDriveController")," before updateonloop %.2f", linear_command);
 
   if (params_.open_loop)
   {
@@ -235,7 +235,7 @@ controller_interface::return_type DiffDriveController::update(
     }
   }
 
-  RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," before limit %.2f", linear_command);
+  // RCLCPP_INFO(rclcpp::get_logger("DiffDriveController")," before limit %.2f", linear_command);
 
   auto & last_command = previous_commands_.back().twist;
   auto & second_to_last_command = previous_commands_.front().twist;
@@ -256,7 +256,7 @@ controller_interface::return_type DiffDriveController::update(
     realtime_limited_velocity_publisher_->unlockAndPublish();
   }
 
-  RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," last %.2f", angular_command);
+  // RCLCPP_INFO(rclcpp::get_logger("DiffDriveController")," last %.2f", angular_command);
 
   // Compute wheels velocities:
   const double velocity_left =
@@ -264,7 +264,7 @@ controller_interface::return_type DiffDriveController::update(
   const double velocity_right =
     (linear_command + angular_command * wheel_separation / 2.0) / right_wheel_radius;
 
-    RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," vel before set %.2f", velocity_left);
+    // RCLCPP_INFO(rclcpp::get_logger("DiffDriveController")," vel before set %.2f", velocity_left);
   // Set wheels velocities:
   for (size_t index = 0; index < static_cast<size_t>(params_.wheels_per_side); ++index)
   {
@@ -272,9 +272,9 @@ controller_interface::return_type DiffDriveController::update(
     registered_right_wheel_handles_[index].velocity.get().set_value(velocity_right);
   }
 
-  RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController")," last %.2f", velocity_left);
+  // RCLCPP_INFO(rclcpp::get_logger("DiffDriveController")," last %.2f", velocity_left);
 
-  // RCLCPP_INFO(rclcpp::get_logger("ThreeOmniwheelController"),
+  // RCLCPP_INFO(rclcpp::get_logger("DiffDriveController"),
   // "Wheel Velocities -> left: %.2f, right: %.2f, linear : %.2f, Angular cmd: %.2f , %.2f , %.2f",
   // velocity_left, velocity_right, linear_command, angular_command, command.twist.linear.x, command.twist.linear.z);
 
