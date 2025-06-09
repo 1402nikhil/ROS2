@@ -50,7 +50,7 @@ install(
   DESTINATION include/diff_drive
 )
 install(
-  DIRECTORY description/launch description/ros2_control description/urdf description/rviz
+  DIRECTORY description/ros2_control description/urdf description/rviz
   DESTINATION share/diff_drive
 )
 install(
