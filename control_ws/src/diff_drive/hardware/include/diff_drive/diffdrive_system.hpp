@@ -30,7 +30,9 @@ namespace diff_drive
         {
             std::string left_wheel_name = "";
             std::string right_wheel_name = "";
-            int enc_counts_per_rev = 0;
+            // int enc_counts_per_rev = 0;
+            int enc_counts_per_rev_l = 0;
+            int enc_counts_per_rev_r = 0;
             float wheel_separation = 0;
             float pid_p = 0;
             float pid_d = 0;

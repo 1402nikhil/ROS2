@@ -30,7 +30,8 @@ namespace diff_drive
 
         cfg_.left_wheel_name = info_.hardware_parameters["left_wheel_name"];
         cfg_.right_wheel_name = info_.hardware_parameters["right_wheel_name"];
-        cfg_.enc_counts_per_rev = std::stoi(info_.hardware_parameters["enc_counts_per_rev"]);
+        cfg_.enc_counts_per_rev_l = std::stoi(info_.hardware_parameters["enc_counts_per_rev_l"]);
+        cfg_.enc_counts_per_rev_r = std::stoi(info_.hardware_parameters["enc_counts_per_rev_r"]);
         cfg_.wheel_separation = std::stof(info_.hardware_parameters["wheel_separation"]);
 
         if (info_.hardware_parameters.count("pid_p") > 0)
@@ -45,8 +46,8 @@ namespace diff_drive
             RCLCPP_INFO(rclcpp::get_logger("DiffDriveHardware"), "PID values not supplied, using defaults.");
         }
 
-        wheel_l_.setup(cfg_.left_wheel_name, cfg_.enc_counts_per_rev);
-        wheel_r_.setup(cfg_.right_wheel_name, cfg_.enc_counts_per_rev);
+        wheel_l_.setup(cfg_.left_wheel_name, cfg_.enc_counts_per_rev_l);
+        wheel_r_.setup(cfg_.right_wheel_name, cfg_.enc_counts_per_rev_r);
 
         for (const hardware_interface::ComponentInfo &joint : info_.joints)
         {
